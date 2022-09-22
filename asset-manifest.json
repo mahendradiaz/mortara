@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mortara/static/css/main.94423397.css",
+    "main.js": "/mortara/static/js/main.9db8f30f.js",
+    "static/media/bg-footer.png": "/mortara/static/media/bg-footer.213903e7efab4df58205.png",
+    "static/media/bg2.png": "/mortara/static/media/bg2.fa2c4d88de12d37cf9ea.png",
+    "static/media/bg-testi.png": "/mortara/static/media/bg-testi.a604f50c22cb5370b9ad.png",
+    "static/media/remixicon.svg?t=1590207869815": "/mortara/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/baner1.png": "/mortara/static/media/baner1.765d5093b23e28fe6342.png",
+    "static/media/whymortara.png": "/mortara/static/media/whymortara.9eac959cc94403222148.png",
+    "static/media/remixicon.eot?t=1590207869815": "/mortara/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/mortara/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/remixicon.woff?t=1590207869815": "/mortara/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/mortara/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/Mortara-Black.png": "/mortara/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
+    "index.html": "/mortara/index.html",
+    "main.94423397.css.map": "/mortara/static/css/main.94423397.css.map",
+    "main.9db8f30f.js.map": "/mortara/static/js/main.9db8f30f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94423397.css",
+    "static/js/main.9db8f30f.js"
+  ]
+}
