@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Image {
+    background-image: url(../img/baner1.png);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container-image{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .3);
+    height: 800px;
+    overflow: hidden;
+}
+.Paragraf {
+    text-align: start;
+    margin-right: 70%;
+    margin-top: 15%;
+}
+ 
+.Paragraf h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 60px;
+    letter-spacing: .2em;
+}
+
+.Link {
+    position: fixed;
+    margin-top: 30%;
+    margin-left: 90%;
+}
+
+.Link a{
+    text-decoration: none;
+}
+
+.Link a i{
+    color: white;
+    font-size: 35px;
+}
+
+.Link a:hover {
+    transform: scale(1.5);
+}
+
+.tag {
+    margin-top: 35%;
+    color: white;
+}
+
+.whyMortara {
+    display: flex;
+    padding: 60px 0 0 20px;
+}
+
+.container-header .logoMortara {
+    max-width: 60%;
+}
+
+.container-body h1 {
+    padding: 0;
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: start;
+    letter-spacing: .1em;
+}
+
+.container-body p {
+    font-size: 25px;
+    width: 80%;
+    letter-spacing: .1em;
+}
+
+.container-footer .container {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.container-footer .container p{
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url(../img/bg2.png);
+    background-position: center;
+    background-size: cover;
+    height: 1080px;
+    margin-top: 50px;
+}
+
+.content-hero {
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    height: 100%;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 70px;
+    margin-top: 30%;
+    letter-spacing: .2em;
+    text-align: center;
+}
+
+.testimoni {
+    background-image: url(../img/bg-testi.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.reviews {
+    background-color: rgba(0, 0, 0, .4);
+    width: 100%;
+    /* height: 400px; */
+}
+
+.footer {
+    background-image: url(../img/bg-footer.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.footer-header h1{
+    font-size: 30px;
+    letter-spacing: .1em;
+}
+
+.container-footer {
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.form-header {
+    display: flex;
+    gap: 50px;
+}
+
+.form-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+.footer-body label{
+    font-size: 24px;
+    margin-bottom: 10px;
+    letter-spacing: .1em;
+}
+
+.footer-body input {
+    border: none;
+    background-color: #6c757d;
+}
+.footer-body input::placeholder{
+    color: white;
+    letter-spacing: .2em;
+}
+.footer-body input:focus{
+    background-color: #6c757d;
+}
+.footer-body input[type=text]{
+    color:white;
+}
+
+.footer-body textarea {
+    resize: none;
+    background-color: #6c757d;
+    border: none;
+}
+.footer-body textarea::placeholder{
+    color: white;
+    letter-spacing: .2em;
+}
+.footer-body textarea:focus{
+    background-color: #6c757d;
+}
+.footer-body textarea[type=text]{
+    color: white;
+}
