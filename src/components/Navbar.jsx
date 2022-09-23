@@ -16,14 +16,14 @@ function Menu() {
             </Nav>
             <Nav>
               <Nav.Link className="navigasi" href="/mortara">Home</Nav.Link>
-              <Nav.Link className="navigasi" href="/AboutUs">
+              <Nav.Link className="navigasi" href="/aboutus">
                 About Us
               </Nav.Link>
-              <Nav.Link className="navigasi" href="/Portfolio">Portfolio</Nav.Link>
-              <Nav.Link className="navigasi" href="/Artikel">
+              <Nav.Link className="navigasi" href="/portfolio">Portfolio</Nav.Link>
+              <Nav.Link className="navigasi" href="/artikel">
                 Artikel
               </Nav.Link>
-              <Nav.Link className="navigasi" href="/Contact">Contact</Nav.Link>
+              <Nav.Link className="navigasi" href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
