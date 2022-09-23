@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mortara/static/css/main.94423397.css",
-    "main.js": "/mortara/static/js/main.9db8f30f.js",
+    "main.css": "/mortara/static/css/main.494d48d3.css",
+    "main.js": "/mortara/static/js/main.b47bd3dd.js",
     "static/media/bg-footer.png": "/mortara/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/mortara/static/media/bg2.fa2c4d88de12d37cf9ea.png",
     "static/media/bg-testi.png": "/mortara/static/media/bg-testi.a604f50c22cb5370b9ad.png",
@@ -14,11 +14,11 @@
     "static/media/remixicon.woff2?t=1590207869815": "/mortara/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/Mortara-Black.png": "/mortara/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
     "index.html": "/mortara/index.html",
-    "main.94423397.css.map": "/mortara/static/css/main.94423397.css.map",
-    "main.9db8f30f.js.map": "/mortara/static/js/main.9db8f30f.js.map"
+    "main.494d48d3.css.map": "/mortara/static/css/main.494d48d3.css.map",
+    "main.b47bd3dd.js.map": "/mortara/static/js/main.b47bd3dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.94423397.css",
-    "static/js/main.9db8f30f.js"
+    "static/css/main.494d48d3.css",
+    "static/js/main.b47bd3dd.js"
   ]
 }
