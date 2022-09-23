@@ -43,7 +43,7 @@ const Home = () => {
                 <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ipsam officia itaque debitis doloremque ipsum earum natus cumque perspiciatis voluptatibus. Dignissimos delectus suscipit corporis ad non vitae numquam cumque sed accusamus? Ipsam delectus, esse quasi impedit voluptate dolorum reiciendis quis facilis nemo eum accusantium adipisci error exercitationem laborum laudantium. Nulla.</p>
             </div>
         </div>
-        <div className="container-footer">
+        <div className="image-container">
             <div className="container">
                 <img src={ whyMortara } alt="" className="img-mortara"/>
                 <h3 className="mt-5">#nothingbutperfections</h3>
