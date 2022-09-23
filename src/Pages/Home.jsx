@@ -2,9 +2,9 @@ import React from 'react'
 import '../style/home.css'
 import MortaraLogo from '../img/Mortara-Black.png'
 import whyMortara from '../img/whymortara.png'
-import Testimoni from './Testimoni'
-import Footer from './Footer'
-import Menu from './Navbar'
+import Testimoni from '../components/Testimoni'
+import Footer from '../components/Footer'
+import Menu from '../components/Navbar'
 
 const Home = () => {
   return (

@@ -1,10 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import AboutUs from '../components/AboutUs'
-import Home from '../components/Home'
-import Portfolio from '../components/Portfolio'
-import Artikel from '../components/Artikel'
-import Contact from '../components/Contact'
+import AboutUs from '../Pages/AboutUs'
+import Home from '../Pages/Home'
+import Portfolio from '../Pages/Portfolio'
+import Artikel from '../Pages/Artikel'
+import Contact from '../Pages/Contact'
 
 const Router = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Menu from './Navbar'
+import Menu from '../components/Navbar'
 
 const Portfolio = () => {
   return (
