@@ -4,10 +4,12 @@ import MortaraLogo from '../img/Mortara-Black.png'
 import whyMortara from '../img/whymortara.png'
 import Testimoni from './Testimoni'
 import Footer from './Footer'
+import Menu from './Navbar'
 
 const Home = () => {
   return (
     <>
+    <Menu />
     <div className="Image">
         <div className="container-image">
             <div className="Paragraf">
