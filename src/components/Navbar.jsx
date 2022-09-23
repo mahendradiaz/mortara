@@ -7,7 +7,7 @@ function Menu() {
     <div className="outerNav">
       <Navbar collapseOnSelect expand="xxl" bg="light" variant="light">
         <Container fluid >
-          <Navbar.Brand className="Logo" href="/">Mortara</Navbar.Brand>
+          <Navbar.Brand className="Logo" href="/mortara">Mortara</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
@@ -15,7 +15,7 @@ function Menu() {
               <Nav.Link href="#pricing" hidden>Pricing</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link className="navigasi" href="/">Home</Nav.Link>
+              <Nav.Link className="navigasi" href="/mortara">Home</Nav.Link>
               <Nav.Link className="navigasi" href="/AboutUs">
                 About Us
               </Nav.Link>
