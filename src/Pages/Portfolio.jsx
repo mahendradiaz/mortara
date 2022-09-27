@@ -3,7 +3,9 @@ import Menu from '../components/Navbar'
 
 const Portfolio = () => {
   return (
+    <>
     <Menu />
+    </>
   )
 }
 

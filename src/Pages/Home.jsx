@@ -5,36 +5,40 @@ import whyMortara from '../img/whymortara.png'
 import Testimoni from '../components/Testimoni'
 import Footer from '../components/Footer'
 import Menu from '../components/Navbar'
+import { Container } from 'react-bootstrap'
 
 const Home = () => {
   return (
     <>
     <Menu />
-    <div className="Image">
-        <div className="container-image">
-            <div className="Paragraf">
-                <h1>
-                    Nothing
-                    <br/> 
-                    But 
-                    <br/> 
-                    Perfections 
-                </h1>
-            </div>
-            <div className="Link">
-                <div className="whatsapp">
-                    <a href=""><i class="ri-whatsapp-line"></i></a>
+    <Container fluid className="content1">
+        <div className="Image">
+            <div className="container-image">
+                <div className="Paragraf">
+                    <h1>
+                        Nothing
+                        <br/> 
+                        But 
+                        <br/> 
+                        Perfections 
+                    </h1>
                 </div>
-                <div className="instagram">
-                    <a href=""><i class="ri-instagram-line"></i></a>
+                <div className="Link">
+                    <div className="whatsapp">
+                        <a href=""><i class="ri-whatsapp-line"></i></a>
+                    </div>
+                    <div className="instagram">
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                    </div>
                 </div>
-            </div>
-            <div className="tag">
-                <h3>#whymortara</h3>
+                <div className="tag">
+                    <h3>#whymortara</h3>
+                </div>
             </div>
         </div>
-    </div>
+    </Container>
 
+<Container fluid className="content2">
     <div className="whyMortara">
         <div className="container-header">
             <img src={ MortaraLogo } alt="" className="logoMortara"/>
@@ -52,6 +56,7 @@ const Home = () => {
             </div>
         </div>
     </div>
+</Container>
 
     <div className="hero min-h-screen">
         <div className="content-hero">

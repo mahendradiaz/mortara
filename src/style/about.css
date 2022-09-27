@@ -1,0 +1,66 @@
+.content-aboutus {
+    background-image: url(../img/aboutus-baner.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    padding: 0;
+}
+
+.Image-aboutus {
+    width: 100%;
+    height: 100%;
+}
+
+.Paragraf img {
+    max-width: 10%;
+    margin-top: 15%;
+}
+
+.hashtag {
+    padding: 0 20px 0 0;
+    margin-top: 50px;
+    text-align: end;
+    font-size: 25px;
+    letter-spacing: .1em;
+}
+
+.containerContentAbout{
+    display: flex;
+    float: left;
+    justify-content: flex-end;
+    padding: 0;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.contentAbout{
+    width: 40%;
+    margin-top: 20px;
+}
+
+.contentAbout h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contentAbout p {
+    margin-bottom: 30px;
+}
+
+.contentAbout img{
+    width: 800px;
+    height: 550px;
+}
+
+.contentAbout2 {
+    margin-top: 55px;
+}
+
+.hashtag2 {
+    padding: 0 20px 0 0;
+    text-align: end;
+    font-size: 25px;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+}

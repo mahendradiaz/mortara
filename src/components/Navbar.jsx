@@ -6,7 +6,7 @@ function Menu() {
   return (
     <div className="outerNav">
       <Navbar collapseOnSelect expand="xxl" bg="light" variant="light">
-        <Container fluid >
+        <Container fluid>
           <Navbar.Brand className="Logo" href="/mortara">Mortara</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
