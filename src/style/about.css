@@ -64,3 +64,61 @@
     letter-spacing: .1em;
     margin-bottom: 10px;
 }
+
+.containerVisiMission {
+    padding: 0;
+}
+
+.visionMission {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+
+.textVisiMission h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: .1em;
+}
+.textVisiMission p {
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    letter-spacing: .1em;
+}
+
+.imgVisiMission {
+    width: 100%;
+}
+
+.containerOurService{
+    margin-top: 50px;
+}
+
+.ourService{
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: none;
+    background: none;
+    box-shadow: none;
+}
+.card h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-bottom: 40px;
+}
+.card img {
+    margin-bottom: 40px;
+}
+.card p {
+    text-align: start;
+}
