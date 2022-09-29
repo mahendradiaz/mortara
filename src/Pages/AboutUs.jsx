@@ -19,7 +19,7 @@ const AboutUs = () => {
       <Container fluid className="content-aboutus">
         <div className="Image-aboutus">
             <div className="container-image">
-                <div className="Paragraf">
+                <div className="paragraf">
                     <img src={ MortaraWhiteLogo } alt="" />
                 </div>
                 <div className="Link">

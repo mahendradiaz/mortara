@@ -50,10 +50,11 @@
 .Image {
     background-image: url(../img/baner1.png);
     width: 102%;
-    height: 800px;
+    height: 1080px;
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    text-align: start;
     z-index: 0;
 }
 
@@ -66,16 +67,16 @@
     overflow: hidden;
 }
 
-.Paragraf {
+.paragraf {
     text-align: start;
-    margin-top: 15%;
+    margin-top: 23%;
     width: 85%;
 }
  
-.Paragraf h1 {
-    font-size: 50px;
+.paragraf h1 {
+    font-size: 60px;
     color: white;
-    line-height: 60px;
+    line-height: 70px;
     letter-spacing: .2em;
 }
 

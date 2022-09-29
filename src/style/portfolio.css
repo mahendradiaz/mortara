@@ -2,7 +2,7 @@
     background-image: url(../img/portfolio.png);
     background-position: center;
     background-size: cover;
-    height: 900px;
+    height: 1080px;
     padding: 0;
     margin-bottom: 50px;
 }
@@ -12,11 +12,14 @@
     height: 100%;
 }
 
-.Paragraf h1 {
+.paragrafPortfolio h1 {
     text-align: center;
     font-weight: bold;
     margin-top: 70px;
     font-size: 70px;
+    color: white;
+    margin-top: 80%;
+    letter-spacing: .1em;
 }
 
 .containerCaraKerja {
@@ -45,3 +48,13 @@
     display: flex;
     gap: 40px;
 }
+
+.titleText {
+    font-size: 20px;
+    letter-spacing: .1em;
+}
+
+.textTyphograph {
+    letter-spacing: .1em;
+}
+

@@ -14,7 +14,7 @@ const Home = () => {
     <Container fluid className="content1">
         <div className="Image">
             <div className="container-image">
-                <div className="Paragraf">
+                <div className="paragraf">
                     <h1>
                         Nothing
                         <br/> 
