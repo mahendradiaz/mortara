@@ -1,3 +1,19 @@
 .containerArtikel {
     margin-top: 5%;
 }
+
+.artikel {
+    max-width: 100%;
+    display: flex;
+    /* justify-content: center; */
+}
+
+
+.embedInstagram {
+    width: auto;
+    background-color: #F4EDE1;
+    padding: 20px;
+}
+
+.elfsight-app-b507292a-74b4-4f15-b347-5adc8613d534 {
+}

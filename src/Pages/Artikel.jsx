@@ -14,7 +14,7 @@ const Artikel = () => {
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nesciunt assumenda totam commodi nostrum ducimus illum, perspiciatis voluptatum aperiam quibusdam.</p>
           </div>
           <div className="embedInstagram">
-          
+            <div className="elfsight-app-b507292a-74b4-4f15-b347-5adc8613d534"></div>
           </div>
         </div>
       </div>
