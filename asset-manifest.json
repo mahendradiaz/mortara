@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mortara/static/css/main.13caa286.css",
-    "main.js": "/mortara/static/js/main.0d715c0f.js",
+    "main.css": "/mortara/static/css/main.f1f20ee2.css",
+    "main.js": "/mortara/static/js/main.ad84a0c3.js",
     "static/media/portfolio.png": "/mortara/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg2.png": "/mortara/static/media/bg2.fa2c4d88de12d37cf9ea.png",
     "static/media/portfolio6.png": "/mortara/static/media/portfolio6.af1dd3ea4b51b245309a.png",
@@ -29,11 +29,11 @@
     "static/media/Mortara-Black.png": "/mortara/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
     "static/media/Mortara-White.png": "/mortara/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
     "index.html": "/mortara/index.html",
-    "main.13caa286.css.map": "/mortara/static/css/main.13caa286.css.map",
-    "main.0d715c0f.js.map": "/mortara/static/js/main.0d715c0f.js.map"
+    "main.f1f20ee2.css.map": "/mortara/static/css/main.f1f20ee2.css.map",
+    "main.ad84a0c3.js.map": "/mortara/static/js/main.ad84a0c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.13caa286.css",
-    "static/js/main.0d715c0f.js"
+    "static/css/main.f1f20ee2.css",
+    "static/js/main.ad84a0c3.js"
   ]
 }
