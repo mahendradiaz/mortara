@@ -1,11 +1,9 @@
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css/grid";
-import 'swiper/css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Grid, Pagination } from "swiper";
-import "../style/swiper.css";
 
 // image import
 import Portfolio1 from '../img/portfolio1.png'

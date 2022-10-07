@@ -1,8 +1,7 @@
 import React from 'react'
 import Menu from '../components/Navbar'
 import { Container } from 'react-bootstrap'
-import '../style/home.css'
-import '../style/about.css'
+import SocialMedia from '../components/SocialMedia'
 import MortaraWhiteLogo from '../img/Mortara-White.png'
 // import MortaraBlackLogo from '../img/Mortara-Black.png'
 import contentAbout1 from '../img/contentAbout1.png'
@@ -22,14 +21,7 @@ const AboutUs = () => {
                 <div className="paragraf">
                     <img src={ MortaraWhiteLogo } alt="" />
                 </div>
-                <div className="Link">
-                    <div className="whatsapp">
-                        <a href=""><i class="ri-whatsapp-line"></i></a>
-                    </div>
-                    <div className="instagram">
-                        <a href=""><i class="ri-instagram-line"></i></a>
-                    </div>
-                </div>
+                <SocialMedia />
             </div>
         </div>
       </Container>

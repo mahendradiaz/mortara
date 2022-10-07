@@ -1,11 +1,11 @@
 import React from 'react'
-import '../style/home.css'
 import MortaraLogo from '../img/Mortara-Black.png'
 import whyMortara from '../img/whymortara.png'
 import Testimoni from '../components/Testimoni'
 import Footer from '../components/Footer'
 import Menu from '../components/Navbar'
 import { Container } from 'react-bootstrap'
+import SocialMedia from '../components/SocialMedia'
 
 const Home = () => {
   return (
@@ -23,14 +23,7 @@ const Home = () => {
                         Perfections 
                     </h1>
                 </div>
-                <div className="Link">
-                    <div className="whatsapp">
-                        <a href=""><i class="ri-whatsapp-line"></i></a>
-                    </div>
-                    <div className="instagram">
-                        <a href=""><i class="ri-instagram-line"></i></a>
-                    </div>
-                </div>
+                <SocialMedia />
                 <div className="tag">
                     <h3>#whymortara</h3>
                 </div>

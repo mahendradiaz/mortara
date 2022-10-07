@@ -1,10 +1,9 @@
 import React from 'react'
 import Menu from '../components/Navbar'
-import '../style/home.css'
-import '../style/portfolio.css'
 import { Container } from 'react-bootstrap'
 import Swiper from '../components/Swiper'
 import Card from '../components/Card'
+import SocialMedia from '../components/SocialMedia'
 
 const Portfolio = () => {
 
@@ -53,14 +52,7 @@ const Portfolio = () => {
                 <div className="paragrafPortfolio">
                     <h1>Our Portfolio</h1>
                 </div>
-                <div className="Link">
-                    <div className="whatsapp">
-                        <a href=""><i class="ri-whatsapp-line"></i></a>
-                    </div>
-                    <div className="instagram">
-                        <a href=""><i class="ri-instagram-line"></i></a>
-                    </div>
-                </div>
+                <SocialMedia />
             </div>
         </div>
       </Container>

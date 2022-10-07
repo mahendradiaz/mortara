@@ -180,3 +180,20 @@
     width: 100%;
     /* height: 400px; */
 }
+
+/* FOOTER */
+.footer-bg {
+    display: flex;
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+}
+.containerInput {
+    display: flex;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+}
