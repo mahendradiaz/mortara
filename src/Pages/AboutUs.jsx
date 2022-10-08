@@ -10,6 +10,7 @@ import VisionMission from '../img/vision-mission.png'
 import OurService from '../img/our-service.png'
 import OurService2 from '../img/our-service2.png'
 import OurService3 from '../img/our-service3.png'
+import Footer from '../components/Footer'
 
 const AboutUs = () => {
   return (
@@ -75,6 +76,7 @@ const AboutUs = () => {
 
         </div>
       </Container>
+      <Footer />
     </>
   )
 }

@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap'
 import Swiper from '../components/Swiper'
 import Card from '../components/Card'
 import SocialMedia from '../components/SocialMedia'
+import Footer from '../components/Footer'
 
 const Portfolio = () => {
 
@@ -75,6 +76,7 @@ const Portfolio = () => {
             </div>
           </div>
       </Container>
+      <Footer />
     </>
   )
 }

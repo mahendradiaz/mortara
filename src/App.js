@@ -20,7 +20,7 @@ import "./style/swiper.css";
 
 function App() {
   return (
-    <Router basename="/mortara"/>
+    <Router basename="/"/>
   );
 }
 

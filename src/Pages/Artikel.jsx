@@ -3,6 +3,7 @@ import Menu from '../components/Navbar'
 import { Container } from 'react-bootstrap'
 import SocialMedia from '../components/SocialMedia'
 import SliderArtikel from '../components/SliderArtikel'
+import Footer from '../components/Footer'
 
 const Artikel = () => {
   return (
@@ -22,6 +23,7 @@ const Artikel = () => {
         </div>
         <SliderArtikel />
       </Container>
+      <Footer />
     </>
   )
 }
