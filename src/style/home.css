@@ -182,8 +182,19 @@
 }
 
 /* FOOTER */
+.containerForm {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/bg-footer.png);
+}
+
 .form {
-    max-width: 50%;
+    max-width: 100%;
+}
+
+.titleForm {
+    text-transform: uppercase;
+    letter-spacing: .1em;
 }
 
 .form-control {
@@ -191,5 +202,9 @@
 }
 
 .form-group {
-    max-width: 66%;
+    max-width: 100%;
+}
+
+.location-footer {
+    line-height: 10px;
 }
