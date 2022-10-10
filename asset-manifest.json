@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a4b01b7.css",
-    "main.js": "/static/js/main.fc5210a2.js",
+    "main.css": "/static/css/main.5a8571d1.css",
+    "main.js": "/static/js/main.07a4d517.js",
     "static/media/portfolio.png": "/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg-footer.png": "/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/static/media/bg2.fa2c4d88de12d37cf9ea.png",
@@ -30,11 +30,11 @@
     "static/media/Mortara-Black.png": "/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
     "static/media/Mortara-White.png": "/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
     "index.html": "/index.html",
-    "main.1a4b01b7.css.map": "/static/css/main.1a4b01b7.css.map",
-    "main.fc5210a2.js.map": "/static/js/main.fc5210a2.js.map"
+    "main.5a8571d1.css.map": "/static/css/main.5a8571d1.css.map",
+    "main.07a4d517.js.map": "/static/js/main.07a4d517.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a4b01b7.css",
-    "static/js/main.fc5210a2.js"
+    "static/css/main.5a8571d1.css",
+    "static/js/main.07a4d517.js"
   ]
 }
