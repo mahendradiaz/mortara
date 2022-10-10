@@ -1,0 +1,188 @@
+{
+  "database": [
+    {
+      "id ": 1,
+      "email": "johndoe@gmail.com",
+      "name": "John Doe",
+      "number": "0878892992",
+      "address": "Jl. Yayasan",
+      "inquiry": "Holaa broo"
+    },
+    {
+      "id": 2,
+      "email": "johndoe@gmail.com",
+      "name": "John Doe",
+      "number": "0878892992",
+      "address": "Jl. Yayasan",
+      "inquiry": "Holaa broo"
+    },
+    {
+      "email": "diazmahendra29.dm@gmail.com",
+      "name": "Diaz Mahendra",
+      "number": "0878282828",
+      "address": "Jl Yayasan",
+      "inquiry": "saya tertarik",
+      "id": 3
+    },
+    {
+      "email": "diazmahendra29.dm@gmail.com",
+      "name": "Diaz Mahendra",
+      "number": "0878282828",
+      "address": "Jl Yayasan",
+      "inquiry": "saya tertarik",
+      "id": 4
+    },
+    {
+      "email": "ratim86@gmail.com",
+      "name": "Ratim Anaia",
+      "number": "09178686198649712",
+      "address": "Jl. Ir H Juanda",
+      "inquiry": "saya masih gapunya duit",
+      "id": 5
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "subet nih boss",
+      "id": 6
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "",
+      "id": 7
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "",
+      "id": 8
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "",
+      "id": 9
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "asdasas",
+      "id": 10
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "",
+      "id": 11
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "",
+      "id": 12
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "901748127",
+      "address": "subet dimana saja",
+      "inquiry": "",
+      "id": 13
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "",
+      "address": "subet dimana saja",
+      "inquiry": "asdasdas",
+      "id": 14
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "Subet",
+      "number": "",
+      "address": "subet dimana saja",
+      "inquiry": "asdasdas",
+      "id": 15
+    },
+    {
+      "email": "diazmahendra29.dm@gmail.com",
+      "name": "Diaz Mahendra",
+      "number": "0878282828",
+      "address": "Jl Yayasan",
+      "inquiry": "saya tertarik loh",
+      "id": 16
+    },
+    {
+      "email": "diazmahendra29.dm@gmail.com",
+      "name": "Diaz Mahendra",
+      "number": "0878282828",
+      "address": "Jl Yayasan",
+      "inquiry": "saya tertarik loh",
+      "id": 17
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "sibet",
+      "number": "1923471097",
+      "address": "subet diman mana",
+      "inquiry": "yahiii",
+      "id": 18
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "sibet",
+      "number": "1923471097",
+      "address": "subet diman mana",
+      "inquiry": "yahiii",
+      "id": 19
+    },
+    {
+      "email": "subet@gmail.com",
+      "name": "sibet",
+      "number": "1923471097",
+      "address": "subet diman mana",
+      "inquiry": "yahiii",
+      "id": 20
+    },
+    {
+      "email": "asset.riojulians@gmail.com",
+      "name": "sibet",
+      "number": "1923471097",
+      "address": "subet diman mana",
+      "inquiry": "gua mau beli",
+      "id": 21
+    },
+    {
+      "email": "asset.riojulians@gmail.com",
+      "name": "sibet",
+      "number": "1923471097",
+      "address": "subet diman mana",
+      "inquiry": "gua mau beli",
+      "id": 22
+    },
+    {
+      "email": "riojulians.asset@gmail.com",
+      "name": "gatau",
+      "number": "12491209",
+      "address": "coba",
+      "inquiry": "yakali",
+      "id": 23
+    }
+  ]
+}

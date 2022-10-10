@@ -24,7 +24,7 @@ const Home = () => {
                     </h1>
                 </div>
                 <SocialMedia />
-                <div className="tag">
+                <div className="tagLine">
                     <h3>#whymortara</h3>
                 </div>
             </div>

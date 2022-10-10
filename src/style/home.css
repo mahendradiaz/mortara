@@ -101,7 +101,7 @@
     transform: scale(1.5);
 }
 
-.tag {
+.tagLine {
     margin-top: 35%;
     color: white;
 }
@@ -186,6 +186,8 @@
     display: flex;
     justify-content: space-around;
     background-image: url(../img/bg-footer.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .form {
