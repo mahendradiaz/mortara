@@ -1,40 +1,41 @@
 {
   "files": {
-    "main.css": "/static/css/main.5a8571d1.css",
-    "main.js": "/static/js/main.07a4d517.js",
+    "main.css": "/static/css/main.9c26841b.css",
+    "main.js": "/static/js/main.ee822c47.js",
     "static/media/portfolio.png": "/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg-footer.png": "/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/static/media/bg2.fa2c4d88de12d37cf9ea.png",
     "static/media/portfolio6.png": "/static/media/portfolio6.af1dd3ea4b51b245309a.png",
     "static/media/vision-mission.png": "/static/media/vision-mission.b81b507e46acb8ee02f7.png",
-    "static/media/bg-testi.png": "/static/media/bg-testi.a604f50c22cb5370b9ad.png",
     "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/our-service3.png": "/static/media/our-service3.e18e74a0408f90a6489a.png",
+    "static/media/bg-contact.png": "/static/media/bg-contact.a7e4c55e9a6f2bf1311d.png",
     "static/media/aboutus-baner.png": "/static/media/aboutus-baner.47d8a13a1d8962075b99.png",
     "static/media/portfolio2.png": "/static/media/portfolio2.92330fbf7988d8df1e33.png",
     "static/media/portofoliobg-carakerja.png": "/static/media/portofoliobg-carakerja.90b7de9c2b581515ebf4.png",
     "static/media/our-service2.png": "/static/media/our-service2.c4eaa66442e8e5bb60d1.png",
     "static/media/portfolio1.png": "/static/media/portfolio1.c8aae307f256a331c3c4.png",
     "static/media/portfolio4.png": "/static/media/portfolio4.3a909fa61f7334d913f2.png",
+    "static/media/baner1.png": "/static/media/baner1.f9330e2cae24b96c3e56.png",
+    "static/media/bg-testi.png": "/static/media/bg-testi.c56e564c21b3a19528c5.png",
     "static/media/portfolio5.png": "/static/media/portfolio5.c65874983718db67fa99.png",
-    "static/media/baner1.png": "/static/media/baner1.765d5093b23e28fe6342.png",
-    "static/media/contentAbout2.png": "/static/media/contentAbout2.5df8028a2ecab36e8492.png",
+    "static/media/contentAbout1.png": "/static/media/contentAbout1.0463f9cf16fe3c83dd21.png",
     "static/media/portfolio3.png": "/static/media/portfolio3.3dd336e47a197c2339c3.png",
     "static/media/whymortara.png": "/static/media/whymortara.9eac959cc94403222148.png",
-    "static/media/contentAbout1.png": "/static/media/contentAbout1.135d061187f682f311a1.png",
     "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
     "static/media/remixicon.ttf?t=1590207869815": "/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/contentAbout2.png": "/static/media/contentAbout2.87b0f4254df26410038d.png",
     "static/media/our-service.png": "/static/media/our-service.00672463758a880f920a.png",
     "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
     "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/Mortara-Black.png": "/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
     "static/media/Mortara-White.png": "/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
     "index.html": "/index.html",
-    "main.5a8571d1.css.map": "/static/css/main.5a8571d1.css.map",
-    "main.07a4d517.js.map": "/static/js/main.07a4d517.js.map"
+    "main.9c26841b.css.map": "/static/css/main.9c26841b.css.map",
+    "main.ee822c47.js.map": "/static/js/main.ee822c47.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a8571d1.css",
-    "static/js/main.07a4d517.js"
+    "static/css/main.9c26841b.css",
+    "static/js/main.ee822c47.js"
   ]
 }
