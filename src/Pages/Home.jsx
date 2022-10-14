@@ -20,7 +20,7 @@ const Home = () => {
                         <br/> 
                         But 
                         <br/> 
-                        Perfections 
+                        Perfection
                     </h1>
                 </div>
                 <SocialMedia />
@@ -45,7 +45,7 @@ const Home = () => {
         <div className="image-container">
             <div className="container">
                 <img src={ whyMortara } alt="" className="img-mortara"/>
-                <h3 className="mt-5">#nothingbutperfections</h3>
+                <h3 className="mt-5">#nothingbutperfection</h3>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@ const Home = () => {
 
     <div className="hero min-h-screen">
         <div className="content-hero">
-            <h1 className="text">Nothing But Perfections</h1>
+            <h1 className="text">Design, Construction, Interior</h1>
             {/* <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <button className="btn btn-primary">Get Started</button> */}
         </div>

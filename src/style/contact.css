@@ -1,0 +1,36 @@
+.bg-contact {
+    background-image: url(../img/bg-contact.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-contact h1 {
+    position: relative;
+    top: 70px;
+    color: white;
+    padding: 50px;
+    font-size: 50px;
+    letter-spacing: .1em;
+}
+
+.bg-contact h1{
+    text-align: end;
+}
+
+.content-contact {
+    margin-top: 7%;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.address {
+    width: 20%;
+    padding: 30px;
+    height: 500px;
+    background-color: rgb(255, 255, 255, 0.5);
+    color: white;
+    border-radius: 40px;
+    letter-spacing: .1em;
+}

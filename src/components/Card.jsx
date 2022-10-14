@@ -42,7 +42,7 @@ export default function RecipeReviewCard(props) {
       <Card sx={{ maxWidth: 450 }}>
         <CardHeader
           avatar={
-            <Avatar sx={{ bgcolor: blue[300] }} aria-label="recipe">
+            <Avatar sx={{ bgcolor: red[700] }} aria-label="recipe">
               {props.nomor}
             </Avatar>
           }

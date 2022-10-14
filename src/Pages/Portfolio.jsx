@@ -44,6 +44,12 @@ const Portfolio = () => {
   const Typography6 = () => {
     return <p className="textTyphograph">Perubahan, penambahan pekerjaan  dilakukan di tahap ini dengan pembuatan surat Addendum yang terpisah dari surat kontrak kerja, dan akan ditagihkan terpisah dalam invoice pembayaran yang berbeda.</p>;
   }
+  const Title7 = () => {
+    return <h1 className="titleText">Berita Acara dan Sertifikasi Garansi</h1>;
+  }
+  const Typography7 = () => {
+    return <p className="textTyphograph">Jika proyek selesai, tim dan klien akan melakukan ceklist quality control dan memastikan pembangunan sesuai dengan design yang diinginkan oleh klien. Serta garansi pemeliharaan selama 1 bulan.</p>;
+  }
   return (
     <>
     <Menu />
@@ -64,15 +70,16 @@ const Portfolio = () => {
           <div className="titleCaraKerja">
             <h1>Cara Kerja</h1>
           </div>
-          <div className="contentCaraKerja">
+          <div className="contentCaraKerja p-5">
               <Card  nomor="1." title={Title()} typography={Typography()} />
               <Card  nomor="2." title={Title2()} typography={Typography2()} />
               <Card  nomor="3." title={Title3()} typography={Typography3()} />
             </div>
-            <div className="contentCaraKerja mt-5">
+            <div className="contentCaraKerja mt-5 p-5">
               <Card  nomor="4." title={Title4()} typography={Typography4()} />
               <Card  nomor="5." title={Title5()} typography={Typography5()} />
               <Card  nomor="6." title={Title6()} typography={Typography6()} />
+              <Card  nomor="7." title={Title7()} typography={Typography7()} />
             </div>
           </div>
       </Container>

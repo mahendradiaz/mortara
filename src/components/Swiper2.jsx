@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css/grid";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Grid, Pagination } from "swiper";
+import { Grid, Navigation, Pagination } from "swiper";
 
 // image import
 import Portfolio4 from '../img/portfolio4.png'
@@ -20,10 +20,11 @@ export default () => {
             }}
             loop={true}
             spaceBetween={30}
-            // pagination={{
-            //     clickable: true,
-            // }}
-            modules={[Grid, Pagination]}
+            pagination={{
+                clickable: true,
+            }}
+            modules={[Grid, Pagination, Navigation]}
+            navigation={true}
             className="mySwiper"
             >
             <SwiperSlide><img src={ Portfolio4 } alt="" /></SwiperSlide>

@@ -8,6 +8,7 @@ import './style/home.css'
 import './style/about.css'
 import './style/portfolio.css'
 import './style/artikel.css'
+import './style/contact.css'
 
 // Swiper
 import "./style/swiper.css";
