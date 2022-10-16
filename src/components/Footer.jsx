@@ -106,7 +106,7 @@ const Footer = () => {
             <p>Situ Gintung, Cireundeu, Kec.</p>
             <p>Ciputat Timur</p>
           </div>
-          <div className="location-footer">
+          <div className="location-footer mt-5">
             <h3>Phone & Email</h3>
             <p className="mt-3">+62 812 2349 2192</p>
             <p>mortaraconstruction@gmail.com</p>

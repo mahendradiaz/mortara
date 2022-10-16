@@ -197,6 +197,7 @@
 }
 
 .titleForm {
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: .1em;
 }
@@ -210,5 +211,9 @@
 }
 
 .location-footer {
-    line-height: 10px;
+    line-height: 20px;
+}
+
+.location-footer h3 {
+    font-size: 30px;
 }
