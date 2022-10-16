@@ -1,7 +1,40 @@
-import React from 'react'
+import React, { useState }from 'react'
 import Menu from '../components/Navbar'
+import { Form } from 'react-bootstrap'
+import Col from 'react-bootstrap/Col'
+import FloatingLabel from 'react-bootstrap/FloatingLabel'
+import Button from 'react-bootstrap/Button'
+
 
 const Contact = () => {
+  const [validated, setValidated] = useState(false)
+  const [loading, setLoading] = useState(false)
+
+  const handleSubmit = (event) => {
+    const form = event.currentTarget;
+    if (form.checkValidity() === false) {
+      event.preventDefault();
+      event.stopPropagation();
+    } 
+    // else {
+    //   const url = "http://localhost/mortara/onSubmit.php"
+
+    //   let fData = new FormData()
+    //   fData.append('email', email)
+    //   fData.append('name', name)
+    //   fData.append('number', number)
+    //   fData.append('address', address)
+    //   fData.append('inquiry', inquiry)
+      
+    //   axios.post(url, fData)
+    //   .then(response => alert(response.data))
+    //   .catch(error => alert (error))
+    // }
+    setValidated(true);
+
+    setLoading(true)
+  }
+  
   return (
     <>
       <Menu />    
@@ -42,6 +75,81 @@ const Contact = () => {
           </div>
           <div className="formAddress">
             <h3>Get In Touch</h3>
+            <Form className="contact-form mt-5" noValidate validated={validated} onSubmit={handleSubmit}>
+              <div className="container-form d-flex" >
+                <Form.Group as={Col} md="6" controlId="validationCustom01">
+                  <Form.Label className="label">First Name</Form.Label>
+                  <Form.Control
+                    required
+                    type="text"
+                    defaultValue=""
+                    className="form-contact" 
+                    name="firstName"
+                    // value={email}
+                    // onChange={(e) => setEmail(e.target.value)}
+                    />
+                  </Form.Group>
+                  <Form.Group as={Col} md="6" controlId="validationCustom01">
+                  <Form.Label className="label">Last Name</Form.Label>
+                  <Form.Control
+                    required
+                    type="text"
+                    defaultValue=""
+                    className="form-contact" 
+                    name="lastName"
+                    // value={email}
+                    // onChange={(e) => setEmail(e.target.value)}
+                    />
+                </Form.Group>
+              </div>
+              <div className="container-form d-flex mt-4" >
+                <Form.Group as={Col} md="6" controlId="validationCustom01">
+                  <Form.Label className="label">Email</Form.Label>
+                  <Form.Control
+                    required
+                    type="email"
+                    defaultValue=""
+                    className="form-contact" 
+                    name="email"
+                    // value={email}
+                    // onChange={(e) => setEmail(e.target.value)}
+                    />
+                  </Form.Group>
+                  <Form.Group as={Col} md="6" controlId="validationCustom01">
+                  <Form.Label className="label">No. Telp</Form.Label>
+                  <Form.Control
+                    required
+                    type="number"
+                    defaultValue=""
+                    className="form-contact" 
+                    name="noTelp"
+                    // value={email}
+                    // onChange={(e) => setEmail(e.target.value)}
+                    />
+                </Form.Group>
+              </div>
+              <div className="container-form d-flex mt-4" >
+                <Form.Group as={Col} className="mb-3" controlId="validationCustom03">
+                  <Form.Label className="label">Message</Form.Label>
+                  <FloatingLabel controlId="floatingTextarea2">
+                    <Form.Control
+                      required
+                      as="textarea"
+                      type="textarea"
+                      placeholder="Leave a comment here"
+                      style={{ height: '70px' }}
+                      className="form-contact" 
+                      name="Mesagge"
+                      // value={inquiry}
+                      // onChange={(e) => setInquiry(e.target.value)}
+                      />
+                  </FloatingLabel>
+                </Form.Group>
+              </div>
+              <Button variant="secondary"  type="submit">
+              {loading ? 'Sending...': 'Send'}
+              </Button>
+            </Form>
           </div>
         </div>
       </div>
