@@ -1,39 +1,46 @@
 import React, { useState } from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import FloatingLabel from 'react-bootstrap/FloatingLabel';
-import { Container } from 'react-bootstrap';
-import Api from '../api/database-api'
-import { useNavigate } from 'react-router-dom'
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
+import Col from 'react-bootstrap/Col'
+import Row from 'react-bootstrap/Row'
+import FloatingLabel from 'react-bootstrap/FloatingLabel'
+import { Container } from 'react-bootstrap'
+import axios from 'axios'
 
 const Footer = () => {
-  const browserHistory = useNavigate()
   const [validated, setValidated] = useState(false)
-  const [email, setEmail] = useState('')
-  const [name, setName] = useState('')
-  const [number, setNumber] = useState('')
-  const [address, setAddress] = useState('')
-  const [inquiry, setInquiry] = useState('')
   const [loading, setLoading] = useState(false)
+
+
+  const [email, setEmail] = useState('');
+  const [name, setName] = useState('');
+  const [number, setNumber] = useState('');
+  const [address, setAddress] = useState('');
+  const [inquiry, setInquiry] = useState('');
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+    } else {
+      const url = "http://localhost/mortara/onSubmit.php"
+
+      let fData = new FormData()
+      fData.append('email', email)
+      fData.append('name', name)
+      fData.append('number', number)
+      fData.append('address', address)
+      fData.append('inquiry', inquiry)
+      
+      axios.post(url, fData)
+      .then(response => alert(response.data))
+      .catch(error => alert (error))
     }
     setValidated(true);
 
     setLoading(true)
-    event.preventDefault();
-    const database = {email, name, number, address, inquiry}
-    Api.post('/', database).then(() => {
-      setLoading(false)
-      browserHistory.goBack()
-    })
   }
 
     return (
@@ -49,7 +56,8 @@ const Footer = () => {
                 type="email"
                 placeholder="Your Email Address"
                 defaultValue=""
-                className="form-control"
+                className="form-control" 
+                name="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 />
@@ -61,16 +69,17 @@ const Footer = () => {
                 type="text"
                 placeholder="Your Name"
                 defaultValue=""
-                className="form-control"
+                className="form-control" 
+                name="name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 />
             </Form.Group>
             </Row>
             <Form.Group as={Col} className="mb-3" controlId="validationCustom03">
-              <Form.Control type="number" className="mt-3 form-group" value={number} onChange={(e) => setNumber(e.target.value)}  placeholder="Your Mobile Number *" aria-label="Your Mobile Number *" aria-describedby="basic-addon1" required/>
+              <Form.Control type="number" className="mt-3 form-group" name="number" value={number} onChange={(e) => setNumber(e.target.value)} placeholder="Your Mobile Number *" aria-label="Your Mobile Number *" aria-describedby="basic-addon1" required/>
 
-              <Form.Control type="text" className="mt-3 form-group" value={address} onChange={(e) => setAddress(e.target.value)}  placeholder="Your Current Home Address *" aria-label="Your Mobile Number *" aria-describedby="basic-addon1" required/>
+              <Form.Control type="text" className="mt-3 form-group" name="address" value={address} onChange={(e) => setAddress(e.target.value)} placeholder="Your Current Home Address *" aria-label="Your Mobile Number *" aria-describedby="basic-addon1" required/>
 
               <FloatingLabel controlId="floatingTextarea2" label="Your Inquiry">
                 <Form.Control
@@ -78,7 +87,8 @@ const Footer = () => {
                   as="textarea"
                   placeholder="Leave a comment here"
                   style={{ height: '100px' }}
-                  className="mt-3 form-group"
+                  className="mt-3 form-group" 
+                  name="inquiry"
                   value={inquiry}
                   onChange={(e) => setInquiry(e.target.value)}
                   />

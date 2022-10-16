@@ -22,7 +22,9 @@
     border-radius: 10px;
     scale: 1.1;
 }
-
+.Logo img {
+    max-width: 50%;
+}
 .navigasi {
     padding: 5px;
     scale: 1;

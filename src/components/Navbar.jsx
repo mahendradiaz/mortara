@@ -1,13 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import LogoMortara from '../img/logo-mortara.png'
 
 function Menu() {
   return (
     <div className="outerNav">
       <Navbar collapseOnSelect expand="xxl" bg="light" variant="light">
         <Container fluid>
-          <Navbar.Brand className="Logo" href="/">Mortara</Navbar.Brand>
+          <Navbar.Brand className="Logo" href="/"><img src={LogoMortara} alt="" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
