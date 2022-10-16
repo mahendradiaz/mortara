@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c26841b.css",
-    "main.js": "/static/js/main.ee822c47.js",
+    "main.css": "/static/css/main.63c4950f.css",
+    "main.js": "/static/js/main.b22c540f.js",
     "static/media/portfolio.png": "/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg-footer.png": "/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/static/media/bg2.fa2c4d88de12d37cf9ea.png",
@@ -30,12 +30,13 @@
     "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/Mortara-Black.png": "/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
     "static/media/Mortara-White.png": "/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
+    "static/media/logo-mortara.png": "/static/media/logo-mortara.a92fd3fb8c7deaea37f9.png",
     "index.html": "/index.html",
-    "main.9c26841b.css.map": "/static/css/main.9c26841b.css.map",
-    "main.ee822c47.js.map": "/static/js/main.ee822c47.js.map"
+    "main.63c4950f.css.map": "/static/css/main.63c4950f.css.map",
+    "main.b22c540f.js.map": "/static/js/main.b22c540f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c26841b.css",
-    "static/js/main.ee822c47.js"
+    "static/css/main.63c4950f.css",
+    "static/js/main.b22c540f.js"
   ]
 }
