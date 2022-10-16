@@ -41,7 +41,7 @@ const AboutUs = () => {
           </div>
       </Container>
 
-      <h1 className="hashtag2">#nothingbutperfections</h1>
+      <h1 className="hashtag2">#nothingbutperfection</h1>
       <h1 className="hashtag2">#visionmission</h1>
 
       <Container fluid className="containerVisiMission">
