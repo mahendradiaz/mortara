@@ -50,7 +50,7 @@ const Footer = () => {
         <h3 className="titleForm mb-5">Asked About News and updates <br/> about your future home.</h3>
           <Row className="mb-3">
             <Form.Group as={Col} md="6" controlId="validationCustom01">
-              <Form.Label>Email</Form.Label>
+              <Form.Label className="labelFooter">Email</Form.Label>
               <Form.Control
                 required
                 type="email"
@@ -62,8 +62,8 @@ const Footer = () => {
                 onChange={(e) => setEmail(e.target.value)}
                 />
             </Form.Group>
-            <Form.Group as={Col} md="6" controlId="validationCustom02">
-              <Form.Label>Name</Form.Label>
+            <Form.Group as={Col} md="6" className="inputName" controlId="validationCustom02">
+              <Form.Label className="labelFooter">Name</Form.Label>
               <Form.Control
                 required
                 type="text"

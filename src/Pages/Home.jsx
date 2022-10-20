@@ -37,13 +37,13 @@ const Home = () => {
             <img src={ MortaraLogo } alt="" className="logoMortara"/>
         </div>
         <div className="container-body">
-            <div className="container">
+            <div className="textMortara">
                 <h1>Why Mortara?</h1>
                 <p className="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ipsam officia itaque debitis doloremque ipsum earum natus cumque perspiciatis voluptatibus. Dignissimos delectus suscipit corporis ad non vitae numquam cumque sed accusamus? Ipsam delectus, esse quasi impedit voluptate dolorum reiciendis quis facilis nemo eum accusantium adipisci error exercitationem laborum laudantium. Nulla.</p>
             </div>
         </div>
         <div className="image-container">
-            <div className="container">
+            <div className="imgMortara">
                 <img src={ whyMortara } alt="" className="img-mortara"/>
                 <h3 className="mt-5">#nothingbutperfection</h3>
             </div>
@@ -53,7 +53,7 @@ const Home = () => {
 
     <div className="hero min-h-screen">
         <div className="content-hero">
-            <h1 className="text">Design, Construction, Interior</h1>
+            <h1 className="text">Design, Construction, Interior.</h1>
             {/* <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
             <button className="btn btn-primary">Get Started</button> */}
         </div>

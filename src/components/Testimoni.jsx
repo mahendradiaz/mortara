@@ -13,13 +13,13 @@ const Height = styled.div`
 `;
 
 const Box = styled.div`
-  padding: ${(props) => props.scale * 30}px;
+  padding: ${(props) => props.scale * 20}px;
 `;
 
 const Review = styled.div`
   width: ${(props) => props.scale * 700}px;
   display: flex;
-  padding: ${(props) => props.scale * 25}px;
+  padding: ${(props) => props.scale * 20}px;
   background: #fff;
   border-radius: 4px;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.12);
@@ -73,12 +73,12 @@ const Testimoni = ({ size, onStartPerformance, onEndPerformance }) => {
 
   return (
     <FullWidth>
-      <Height height={600}>
+      <Height height={800}>
         <Marquee
           key={key}
-          velocity={25}
+          velocity={70}
           scatterRandomly
-          minScale={0.7}
+          minScale={30}
           onInit={onStartPerformance}
           onFinish={onEndPerformance}
         >
