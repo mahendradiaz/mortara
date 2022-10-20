@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae327f50.css",
-    "main.js": "/static/js/main.282e01bc.js",
+    "main.css": "/static/css/main.53932271.css",
+    "main.js": "/static/js/main.329e9e14.js",
     "static/media/portfolio.png": "/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg-footer.png": "/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/static/media/bg2.fa2c4d88de12d37cf9ea.png",
@@ -32,11 +32,11 @@
     "static/media/Mortara-White.png": "/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
     "static/media/logo-mortara.png": "/static/media/logo-mortara.a92fd3fb8c7deaea37f9.png",
     "index.html": "/index.html",
-    "main.ae327f50.css.map": "/static/css/main.ae327f50.css.map",
-    "main.282e01bc.js.map": "/static/js/main.282e01bc.js.map"
+    "main.53932271.css.map": "/static/css/main.53932271.css.map",
+    "main.329e9e14.js.map": "/static/js/main.329e9e14.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae327f50.css",
-    "static/js/main.282e01bc.js"
+    "static/css/main.53932271.css",
+    "static/js/main.329e9e14.js"
   ]
 }
