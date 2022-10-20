@@ -55,9 +55,6 @@
 }
 .form-contact[type='text']:focus,
 .form-contact[type='text']:valid,
-.form-contact[type='email']:focus,
-.form-contact[type='email']:valid,
-.form-contact[type='email']:active,
 .form-contact[type='number']:focus,
 .form-contact[type='number']:valid,
 .form-contact[type='textarea']:focus,

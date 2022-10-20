@@ -4,32 +4,38 @@ import { Form } from 'react-bootstrap'
 import Col from 'react-bootstrap/Col'
 import FloatingLabel from 'react-bootstrap/FloatingLabel'
 import Button from 'react-bootstrap/Button'
+import axios from 'axios'
 
 
 const Contact = () => {
   const [validated, setValidated] = useState(false)
   const [loading, setLoading] = useState(false)
 
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [number, setNumber] = useState('');
+  const [message, setMessage] = useState('');
+
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
-    } 
-    // else {
-    //   const url = "http://localhost/mortara/onSubmit.php"
+    } else {
+      const url = "http://localhost/mortara/onSubmitContact.php"
 
-    //   let fData = new FormData()
-    //   fData.append('email', email)
-    //   fData.append('name', name)
-    //   fData.append('number', number)
-    //   fData.append('address', address)
-    //   fData.append('inquiry', inquiry)
+      let fData = new FormData()
+      fData.append('firstName', firstName)
+      fData.append('lastName', lastName)
+      fData.append('email', email)
+      fData.append('number', number)
+      fData.append('message', message)
       
-    //   axios.post(url, fData)
-    //   .then(response => alert(response.data))
-    //   .catch(error => alert (error))
-    // }
+      axios.post(url, fData)
+      .then(response => alert(response.data))
+      .catch(error => alert (error))
+    }
     setValidated(true);
 
     setLoading(true)
@@ -85,8 +91,8 @@ const Contact = () => {
                     defaultValue=""
                     className="form-contact" 
                     name="firstName"
-                    // value={email}
-                    // onChange={(e) => setEmail(e.target.value)}
+                    value={firstName}
+                    onChange={(e) => setFirstName(e.target.value)}
                     />
                   </Form.Group>
                   <Form.Group as={Col} md="6" controlId="validationCustom01">
@@ -97,8 +103,8 @@ const Contact = () => {
                     defaultValue=""
                     className="form-contact" 
                     name="lastName"
-                    // value={email}
-                    // onChange={(e) => setEmail(e.target.value)}
+                    value={lastName}
+                    onChange={(e) => setLastName(e.target.value)}
                     />
                 </Form.Group>
               </div>
@@ -107,12 +113,12 @@ const Contact = () => {
                   <Form.Label className="label">Email</Form.Label>
                   <Form.Control
                     required
-                    type="email"
+                    type="text"
                     defaultValue=""
                     className="form-contact" 
                     name="email"
-                    // value={email}
-                    // onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                     />
                   </Form.Group>
                   <Form.Group as={Col} md="6" controlId="validationCustom01">
@@ -122,9 +128,9 @@ const Contact = () => {
                     type="number"
                     defaultValue=""
                     className="form-contact" 
-                    name="noTelp"
-                    // value={email}
-                    // onChange={(e) => setEmail(e.target.value)}
+                    name="number"
+                    value={number}
+                    onChange={(e) => setNumber(e.target.value)}
                     />
                 </Form.Group>
               </div>
@@ -139,9 +145,9 @@ const Contact = () => {
                       placeholder="Leave a comment here"
                       style={{ height: '70px' }}
                       className="form-contact" 
-                      name="Mesagge"
-                      // value={inquiry}
-                      // onChange={(e) => setInquiry(e.target.value)}
+                      name="message"
+                      value={message}
+                      onChange={(e) => setMessage(e.target.value)}
                       />
                   </FloatingLabel>
                 </Form.Group>
