@@ -14,27 +14,29 @@ import Swiper2 from "./Swiper2";
 export default () => {
     return (
         <>
-            <Swiper
-            slidesPerView={3}
-            grid={{
-                rows: 1,
-            }}
-            spaceBetween={0}
-            loop={true}
-            pagination={{
-                clickable: true,
-            }}
-            modules={[Grid, Pagination, Navigation]}
-            navigation={true}
-            className="mySwiper"
-            >
-            <SwiperSlide><img src={ Portfolio1 } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Portfolio2 } alt="" /></SwiperSlide>
-            <SwiperSlide><img src={ Portfolio3 } alt="" /></SwiperSlide>
-            
-            </Swiper>
+            <div className="containerSwiper">
+                <Swiper
+                slidesPerView={3}
+                grid={{
+                    rows: 1,
+                }}
+                spaceBetween={0}
+                loop={true}
+                pagination={{
+                    clickable: true,
+                }}
+                modules={[Grid, Pagination, Navigation]}
+                navigation={true}
+                className="mySwiper"
+                >
+                <SwiperSlide><img src={ Portfolio1 } alt="" /></SwiperSlide>
+                <SwiperSlide><img src={ Portfolio2 } alt="" /></SwiperSlide>
+                <SwiperSlide><img src={ Portfolio3 } alt="" /></SwiperSlide>
+                
+                </Swiper>
 
-            <Swiper2 />
+                <Swiper2 />
+            </div>
         </>
     );
   };

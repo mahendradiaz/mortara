@@ -38,8 +38,8 @@ const Footer = () => {
       .then(response => alert(response.data))
       .catch(error => alert (error))
     }
-    setValidated(true);
 
+    setValidated(true);
     setLoading(true)
   }
 

@@ -220,13 +220,147 @@
     font-size: 30px;
 }
 
+@media (max-width : 1080px){
+    .paragraf {
+        margin-top: 50%;
+        padding: 20px;
+    }
+
+    .tagLine {
+        margin-top: 90%;
+        margin-right: 40px;
+    }
+
+    .Link { 
+        margin-top: 70%;
+    }
+
+    .whyMortara {
+        flex-direction: column;
+    }
+
+    .logoMortara{
+        max-width: 25%;
+    }
+}
+
+@media (max-width : 800px){
+
+    .tagLine {
+        margin-top: 110%;
+    }
+
+    .Link {
+        margin-top: 95%;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width : 700px){
+
+    .Image {
+        width: 110%;
+    }
+
+    .paragraf {
+        margin-top: 60%;
+    }
+
+    .tagLine {
+        margin-top: 130%;
+        margin-right: 40px;
+    }
+
+    .Link { 
+        margin-top: 110%;
+        margin-right: 40px;
+    }
+
+    .whyMortara {
+        flex-direction: column;
+    }
+
+    .whyMortara {
+        width: 110%;
+    }
+
+    .hero {
+        width: 110%;
+    }
+
+    .logoMortara{
+        max-width: 30%;
+    }
+    
+    .hero h1 {
+        margin-top: 50%;
+    }
+
+
+    .testimoni {
+        width: 110%;
+    }
+
+    .containerForm {
+        flex-direction: column;
+        width: 110%;
+    }
+
+}
+
+@media (max-width : 600px) {
+
+    .Image {
+        width: 110%;
+        height: 800px;
+        margin-top: 100px;
+    }
+
+    .paragraf {
+        margin-top: 40%;
+    }
+
+    .tagLine {
+        margin-top: 110%;
+        margin-right: 40px;
+    }
+
+    .Link {
+        margin-top: 90%;
+    }
+
+    .whyMortara {
+        width: 110%;
+    }
+
+    .hero {
+        width: 110%;
+        height: 600px;
+    }
+
+    .hero h1 {
+        font-size: 50px;
+        margin-top: 50%;
+    }
+
+    .testimoni {
+        width: 110%;
+    }
+
+    .containerForm {
+        flex-direction: column;
+        width: 110%;
+    }
+}
+
 @media (max-width : 500px) {
+
     .Logo img {
         max-width: 40%;
     }
 
     .Image {
-        width: 108%;
+        width: 110%;
         height: 600px;
         margin-top: 90px;
     }
@@ -246,11 +380,12 @@
 
     .tagLine {
         margin-top: 100%;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 
     .Link { 
-        margin-top: 130%;
+        margin-top: 80%;
+        margin-right: 40px;
     }
 
     .content2{
@@ -259,7 +394,7 @@
 
     .whyMortara {
         flex-direction: column;
-        width: 108%;
+        width: 110%;
     }
 
     .logoMortara{
@@ -281,7 +416,7 @@
     }
 
     .hero {
-        width: 108%;
+        width: 110%;
         height: 600px;
     }
 
@@ -291,20 +426,12 @@
     }
     
     .testimoni {
-        width: 108%;
-    }
-
-    .containerForm {
-        display: flex;
-        justify-content: space-around;
-        background-image: url(../img/bg-footer.png);
-        background-position: center;
-        background-size: cover;
+        width: 110%;
     }
 
     .containerForm {
         flex-direction: column;
-        width: 108%;
+        width: 110%;
     }
 
     .labelFooter {
@@ -316,3 +443,26 @@
     }
 }
 
+@media (max-width : 400px) {
+
+    .Logo img {
+        display: none;
+    }
+    .Image {
+        margin-top: 70px;
+    }
+
+    .tagLine {
+        margin-top: 125%;
+        margin-right: 40px;
+    }
+
+    .Link { 
+        margin-top: 100%;
+        margin-right: 50px;
+    }
+
+    .titleForm {
+        font-size: 25px;
+    }
+}

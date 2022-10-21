@@ -39,7 +39,7 @@ export default function RecipeReviewCard(props) {
   return (
     <>
     <div className="containerCard">
-      <Card sx={{ maxWidth: 450 }}>
+      <Card sx={{ maxWidth: 300 }}>
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: red[700] }} aria-label="recipe">
@@ -62,7 +62,7 @@ export default function RecipeReviewCard(props) {
         /> */}
         <CardContent>
           <Typography variant="body2" color="text.secondary">
-            {props.typography}
+            {props.title}
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
@@ -72,22 +72,22 @@ export default function RecipeReviewCard(props) {
           <IconButton aria-label="share">
             {/* <ShareIcon /> */}
           </IconButton>
-          {/* <ExpandMore
+          <ExpandMore
             expand={expanded}
             onClick={handleExpandClick}
             aria-expanded={expanded}
             aria-label="show more"
           >
             <ExpandMoreIcon />
-          </ExpandMore> */}
+          </ExpandMore>
         </CardActions>
-        {/* <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <Collapse in={expanded} timeout="1" unmountOnExit>
           <CardContent>
             <Typography paragraph>
               {props.typography}
             </Typography>
           </CardContent>
-        </Collapse> */}
+        </Collapse>
       </Card>
   </div>
 </>
