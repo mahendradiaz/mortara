@@ -53,6 +53,7 @@ const Portfolio = () => {
   return (
     <>
     <Menu />
+
     <Container fluid className="content-portfolio">
         <div className="Image-portfolio">
             <div className="container-image">
@@ -72,20 +73,21 @@ const Portfolio = () => {
           <h1>Cara Kerja</h1>
         </div>
         <div className="contentCaraKerja">
-            <Card  nomor="1." title={Title()} typography={Typography()} />
-            <Card  nomor="2." title={Title2()} typography={Typography2()} />
-            <Card  nomor="3." title={Title3()} typography={Typography3()} />
-          </div>
-          <div className="contentCaraKerja">
-            <Card  nomor="4." title={Title4()} typography={Typography4()} />
-            <Card  nomor="5." title={Title5()} typography={Typography5()} />
-            <Card  nomor="6." title={Title6()} typography={Typography6()} />
-          </div>
-          <div className="contentCaraKerja">
-            <Card  nomor="7." title={Title7()} typography={Typography7()} />
-          </div>
+          <Card  nomor="1." title={Title()} typography={Typography()} />
+          <Card  nomor="2." title={Title2()} typography={Typography2()} />
+          <Card  nomor="3." title={Title3()} typography={Typography3()} />
         </div>
+        <div className="contentCaraKerja">
+          <Card  nomor="4." title={Title4()} typography={Typography4()} />
+          <Card  nomor="5." title={Title5()} typography={Typography5()} />
+          <Card  nomor="6." title={Title6()} typography={Typography6()} />
+        </div>
+        <div className="contentCaraKerja">
+          <Card  nomor="7." title={Title7()} typography={Typography7()} />
+        </div>
+      </div>
     </Container>
+    
     <Footer />
     </>
   )
