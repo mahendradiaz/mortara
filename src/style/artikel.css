@@ -1,31 +1,64 @@
-.contArtikel {
+.contArtikel{
     padding: 0;
-    top: 0;
 }
 
 .containerArtikel {
-    margin-top: 65px;
-}
-
-.artikel {
-    max-width: 100%;
     display: flex;
-    /* justify-content: center; */
+    margin-top: 100px;
 }
 
-.textArtikel {
+.mortaraArtikel img{
     position: relative;
-    left: 200px;
-    top: 450px;
+    max-width: 70%;
+    top: 80%;
 }
+
 .textArtikel p {
-    width: 50%;
-    text-align: justify;
+    position: relative;
+    width: 70%;
+    top: 50%;
 }
+
+.taglineArtikel p {
+    font-size: 20px;
+    text-align: end;
+    letter-spacing: .1em;
+}
+
 .embedInstagram {
     width: auto;
     background-color: #F4EDE1;
     padding: 20px;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width : 500px) {
+
+    .containerArtikel {
+        flex-direction: column;
+    }
+
+    .mortaraArtikel img{
+        max-width: 35%;
+        padding: 15px;
+    }
+
+    .textArtikel p {
+        width: 100%;
+        /* margin-top: 30px; */
+        padding: 20px;
+    }
+
+    .embedInstagram {
+        width: 100%;
+    }
+
+    .embedInstagram .elfsight-app-b507292a-74b4-4f15-b347-5adc8613d534{
+        max-width: 100%;
+    }
+
+    .sliderArtikel {
+        width: 100%;
+    }
 }

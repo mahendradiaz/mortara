@@ -9,6 +9,7 @@
     transition: all .3s ease-in-out;
     font-size: large;
 }
+
 .Logo:focus {
     /* color: white; */
     border: .5px solid #000;
@@ -19,23 +20,8 @@
     max-width: 50%;
 }
 
-.navigasi {
-    padding: 5px;
-    scale: 1;
-}
-
-.navigasi:focus {
-    border-bottom: .5px solid #000;
-    scale: 1.1;
-    color: white;
-}
-
-.navigasi:hover {
-    border: none;
-    border-radius: 7px;
-    color: white;
-    background-color: #6c757d;
-    scale: 1;
+.Navbar {
+    width: 100%;
 }
 
 .content1 {
@@ -52,6 +38,7 @@
     overflow: hidden;
     text-align: start;
     z-index: 0;
+    margin-top: -15px;
 }
 
 .container-image{
@@ -251,8 +238,12 @@
 
 @media (max-width : 700px){
 
+    .Navbar {
+        width: 100%;
+    }
+
     .Image {
-        width: 110%;
+        width: 100%;
     }
 
     .paragraf {
@@ -265,7 +256,7 @@
     }
 
     .Link { 
-        margin-top: 110%;
+        margin-top: 100%;
         margin-right: 40px;
     }
 
@@ -274,11 +265,11 @@
     }
 
     .whyMortara {
-        width: 110%;
+        width: 100%;
     }
 
     .hero {
-        width: 110%;
+        width: 100%;
     }
 
     .logoMortara{
@@ -291,12 +282,12 @@
 
 
     .testimoni {
-        width: 110%;
+        width: 100%;
     }
 
     .containerForm {
         flex-direction: column;
-        width: 110%;
+        width: 100%;
     }
 
 }
@@ -306,7 +297,6 @@
     .Image {
         width: 110%;
         height: 800px;
-        margin-top: 100px;
     }
 
     .paragraf {
@@ -348,14 +338,19 @@
 
 @media (max-width : 500px) {
 
+    .Navbar {
+        width: 100%;
+    }
+
     .Logo img {
         max-width: 40%;
+        display: none;
     }
 
     .Image {
-        width: 110%;
+        width: 100%;
         height: 600px;
-        margin-top: 90px;
+        margin-top: 60px;
     }
 
     .paragraf {
@@ -387,7 +382,7 @@
 
     .whyMortara {
         flex-direction: column;
-        width: 110%;
+        width: 100%;
     }
 
     .logoMortara{
@@ -409,7 +404,7 @@
     }
 
     .hero {
-        width: 110%;
+        width: 100%;
         height: 600px;
     }
 
@@ -419,12 +414,12 @@
     }
     
     .testimoni {
-        width: 110%;
+        width: 100%;
     }
 
     .containerForm {
         flex-direction: column;
-        width: 110%;
+        width: 100%;
     }
 
     .labelFooter {
@@ -438,16 +433,26 @@
 
 @media (max-width : 400px) {
 
+
+    .Navbar {
+        width: 100%;
+    }
+
     .Logo img {
         display: none;
     }
+
     .Image {
         margin-top: 70px;
     }
 
+    .paragraf {
+        padding: 0px 0px 0px 50px;
+    }
+
     .tagLine {
-        margin-top: 125%;
-        margin-right: 40px;
+        margin-top: 150%;
+        margin-right: 60px;
     }
 
     .Link { 

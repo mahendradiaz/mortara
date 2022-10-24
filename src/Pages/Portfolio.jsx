@@ -6,8 +6,28 @@ import Card from '../components/Card'
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
 
+// image import
+import Portfolio1 from '../img/portfolio1.png'
+import Portfolio2 from '../img/portfolio2.png'
+import Portfolio3 from '../img/portfolio3.png'
+
 const Portfolio = () => {
 
+
+  // Props Swiper
+  const Image = () => {
+    return <img src={Portfolio1} alt="" />
+  }
+  const Image2 = () => {
+    return <img src={Portfolio2} alt="" />
+  }
+  const Image3 = () => {
+    return <img src={Portfolio3} alt="" />
+  }
+
+
+
+  // Props Cara Kerja
   const Title = () => {
     return <h1 className="titleText">Konsultasi</h1>;
   }
@@ -65,7 +85,8 @@ const Portfolio = () => {
         </div>
     </Container>
     
-    <Swiper />
+    <Swiper image={Image()} image2={Image2()} image3={Image3()}/>
+    <Swiper image={Image3()} image2={Image()} image3={Image2()}/>
 
     <Container fluid className="containerCaraKerja">
       <div className="caraKerja">
