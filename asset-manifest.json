@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1363c51.css",
-    "main.js": "/static/js/main.3e2a21ad.js",
+    "main.css": "/static/css/main.f6ad8c1d.css",
+    "main.js": "/static/js/main.ee9a8feb.js",
     "static/media/portfolio.png": "/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg-footer.png": "/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/static/media/bg2.fa2c4d88de12d37cf9ea.png",
-    "static/media/portfolio6.png": "/static/media/portfolio6.af1dd3ea4b51b245309a.png",
     "static/media/vision-mission.png": "/static/media/vision-mission.b81b507e46acb8ee02f7.png",
     "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/our-service3.png": "/static/media/our-service3.e18e74a0408f90a6489a.png",
@@ -15,10 +14,8 @@
     "static/media/portofoliobg-carakerja.png": "/static/media/portofoliobg-carakerja.90b7de9c2b581515ebf4.png",
     "static/media/our-service2.png": "/static/media/our-service2.c4eaa66442e8e5bb60d1.png",
     "static/media/portfolio1.png": "/static/media/portfolio1.c8aae307f256a331c3c4.png",
-    "static/media/portfolio4.png": "/static/media/portfolio4.3a909fa61f7334d913f2.png",
     "static/media/baner1.png": "/static/media/baner1.f9330e2cae24b96c3e56.png",
     "static/media/bg-testi.png": "/static/media/bg-testi.c56e564c21b3a19528c5.png",
-    "static/media/portfolio5.png": "/static/media/portfolio5.c65874983718db67fa99.png",
     "static/media/contentAbout1.png": "/static/media/contentAbout1.0463f9cf16fe3c83dd21.png",
     "static/media/portfolio3.png": "/static/media/portfolio3.3dd336e47a197c2339c3.png",
     "static/media/whymortara.png": "/static/media/whymortara.9eac959cc94403222148.png",
@@ -32,11 +29,11 @@
     "static/media/Mortara-White.png": "/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
     "static/media/logo-mortara.png": "/static/media/logo-mortara.a92fd3fb8c7deaea37f9.png",
     "index.html": "/index.html",
-    "main.f1363c51.css.map": "/static/css/main.f1363c51.css.map",
-    "main.3e2a21ad.js.map": "/static/js/main.3e2a21ad.js.map"
+    "main.f6ad8c1d.css.map": "/static/css/main.f6ad8c1d.css.map",
+    "main.ee9a8feb.js.map": "/static/js/main.ee9a8feb.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1363c51.css",
-    "static/js/main.3e2a21ad.js"
+    "static/css/main.f6ad8c1d.css",
+    "static/js/main.ee9a8feb.js"
   ]
 }
