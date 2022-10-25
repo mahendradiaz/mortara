@@ -11,6 +11,7 @@
     position: relative;
     max-width: 70%;
     top: 80%;
+    margin-left: 30px;
 }
 
 .textArtikel p {
@@ -29,36 +30,155 @@
     width: auto;
     background-color: #F4EDE1;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
-@media (max-width : 500px) {
+@media (max-width : 1500px) {
+
+    .mortaraArtikel img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width : 1400px) {
+
+    .textArtikel p {
+        width: 100%;
+    }
+}
+
+@media (max-width : 1300px) {
+    
+    .containerArtikel {
+        flex-direction: column;
+    }
+
+    .mortaraArtikel img {
+        max-width: 15%;
+        margin-top: 20px;
+    }
+
+    .textArtikel p {
+        padding: 40px;
+    }
+
+    .embedInstagram {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width : 1080px) {
+
+    .containerArtikel{
+        flex-direction: column;
+    }
+
+    .mortaraArtikel img {
+        max-width: 20%;
+        margin-top: 20px;
+    }
+    
+    .textArtikel p {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .embedInstagram {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width : 800px) {
+
+    .containerArtikel{
+        flex-direction: column;
+    }
+
+    .mortaraArtikel img {
+        max-width: 25%;
+        margin-top: 20px;
+    }
+
+    .textArtikel p {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .embedInstagram {
+        display: flex;
+    }
+}
+
+@media (max-width : 700px) {
 
     .containerArtikel {
         flex-direction: column;
     }
 
-    .mortaraArtikel img{
-        max-width: 35%;
-        padding: 15px;
+    .mortaraArtikel img {
+        max-width: 25%;
+        margin-top: 20px;
     }
 
     .textArtikel p {
         width: 100%;
-        /* margin-top: 30px; */
-        padding: 20px;
+        padding: 40px;
     }
 
     .embedInstagram {
+        display: flex;
         width: 100%;
     }
 
-    .embedInstagram .elfsight-app-b507292a-74b4-4f15-b347-5adc8613d534{
-        max-width: 100%;
+    .sliderArtikel {
+        width: 90%;
+    }
+}
+
+@media (max-width : 600px) {
+
+    .containerArtikel {
+        flex-direction: column;
+    }
+
+    .mortaraArtikel img {
+        max-width: 30%;
+        margin-top: 20px;
+    }
+    
+    .textArtikel p {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .embedInstagram {
+        width: 110%;
+        display: flex;
     }
 
     .sliderArtikel {
         width: 100%;
+    }
+}
+
+@media (max-width : 500px) {
+
+    .containerArtikel{
+        flex-direction: column;
+    }
+
+    .mortaraArtikel img{
+        max-width: 40%;
+    }
+
+    .textArtikel p {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .embedInstagram {
+        width: 100%;
+        display: flex;
     }
 }

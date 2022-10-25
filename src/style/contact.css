@@ -34,6 +34,7 @@
     border-radius: 40px;
     letter-spacing: .1em;
 }
+
 .formAddress h3{
     font-size: 40px;
     letter-spacing: .1em;
@@ -66,9 +67,151 @@
 .container-form {
     gap: 100px;
 }
+
 .label {
     font-size: 24px;
     font-weight: 400;
     letter-spacing: .1em;
     color: white;
+}
+
+@media (max-width : 1080px) {
+
+    .bg-contact {
+        height: 100%;
+    }
+
+    .address {
+        width : 30%
+    }
+
+    .container-form {
+        gap: 70px;
+    }
+}
+
+
+@media (max-width : 800px) {
+    
+    .bg-contact {
+        height: 100%;
+        padding: 30px;
+        overflow: hidden;
+    }
+
+    .bg-contact h1 {
+        text-align: center;
+    }
+
+    .content-contact {
+        flex-direction: column;
+    }
+
+    .address {
+        width: 100%;
+    }
+    
+    .formAddress {
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    .container-form {
+        width: 95%;
+        gap: 50px;
+    }
+}
+
+@media (max-width : 700px) {
+
+    .bg-contact {
+        height: 100%;
+        padding: 30px;
+    }
+     
+    .bg-contact h1 {
+        text-align: center;
+    }
+
+    .content-contact {
+        flex-direction: column;
+    }
+
+    .address {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .formAddress {
+        margin-top: 30px;
+    }
+
+    .container-form {
+        gap: 100px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 600px) {
+
+
+    .bg-contact {
+        height: 100%;
+        padding: 30px;
+    }
+
+    .bg-contact h1 {
+        text-align: center;
+    }
+
+    .content-contact {
+        flex-direction: column;
+    }
+
+    .address {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .formAddress {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width : 500px) {
+
+    .bg-contact {
+        height: 100%;
+        padding: 30px;
+    }
+
+    .bg-contact h1{
+        text-align: center;
+    }
+
+    .content-contact {
+        flex-direction: column;
+    }
+
+    .address {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .formAddress {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width : 400px) {
+    
+    .bg-contact h1 {
+        top: 45px;
+        margin-bottom: 50px;
+        padding: 0;
+    }
+
+    .label {
+        font-size: 16px;
+    }
 }

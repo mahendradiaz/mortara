@@ -28,7 +28,7 @@ const Artikel = () => {
     <>
       <Menu />
       <Container fluid className="contArtikel">
-        <SocialMedia />
+          <SocialMedia />
           <div className="containerArtikel">
             <div className="mortaraArtikel">
               <img src={MortaraBlack} alt="" />
@@ -38,15 +38,15 @@ const Artikel = () => {
             </div>
             <div className="embedInstagram mb-5">
               <div className="elfsight-app-b507292a-74b4-4f15-b347-5adc8613d534"></div>
-              <div className="taglineArtikel">
-                <p>#article</p>
-              </div>
             </div>
           </div>
-        <Swiper image={Image()} image2={Image2()} image3={Image3()} />
+          <div className="sliderArtikel">
+            <Swiper image={Image()} image2={Image2()} image3={Image3()} />
+          </div>
       </Container>
-      <Footer />
-      {/* <div className="elfsight-app-b507292a-74b4-4f15-b347-5adc8613d534"></div> */}
+      <div className="footerArtikel">
+        <Footer />
+      </div>
     </>   
   )
 }
