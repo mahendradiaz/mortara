@@ -211,8 +211,22 @@
     font-size: 30px;
 }
 
-.btn {
-    background: #000;
+.btnForm {
+    background-color: #000;
+    outline: transparent;
+    outline-color: transparent;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnForm:hover {
+    background-color: #333;
+}
+
+.btnForm:focus {
+    outline: transparent;
+    outline-color: transparent;
 }
 
 @media (max-width : 1080px){
