@@ -29,6 +29,7 @@
     height: 1080px;
     padding: 0;
     margin-top: 40px;
+    overflow: auto;
 }
 
 .caraKerja {

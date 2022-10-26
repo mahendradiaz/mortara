@@ -45,7 +45,7 @@ const Home = () => {
         <div className="image-container">
             <div className="imgMortara">
                 <img src={ whyMortara } alt="" className="img-mortara"/>
-                <h3 className="mt-5">#nothingbutperfection</h3>
+                <h3 className="mt-5 p-3">#nothingbutperfection</h3>
             </div>
         </div>
     </div>

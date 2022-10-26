@@ -94,7 +94,7 @@ const Footer = () => {
                   />
               </FloatingLabel>
             </Form.Group>
-            <Button variant="dark" type="submit">
+            <Button variant="secondary" type="submit">
               {loading ? 'Submitting...': 'Submit'}
             </Button>
         </Form>
@@ -109,9 +109,9 @@ const Footer = () => {
           <div className="location-footer mt-5">
             <h3>Phone & Email</h3>
             <p className="mt-3">+62 812 2349 2192</p>
-            <p>mortaraconstruction@gmail.com</p>
+            <p>info@mortara.id</p>
           </div>
-          <div>
+          <div className="location-footer">
             <h3>Follow us on :</h3>
           </div>
         </div>

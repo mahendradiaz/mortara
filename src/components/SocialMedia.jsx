@@ -4,10 +4,10 @@ const SocialMedia = () => {
   return (
     <div className="Link">
         <div className="whatsapp">
-            <a href=""><i class="ri-whatsapp-line"></i></a>
+            <a href="https://wa.me/6281223492192"><i class="ri-whatsapp-line"></i></a>
         </div>
         <div className="instagram">
-            <a href=""><i class="ri-instagram-line"></i></a>
+            <a href="https://www.instagram.com/mortara.id/"><i class="ri-instagram-line"></i></a>
         </div>
     </div>
   )

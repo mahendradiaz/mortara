@@ -180,7 +180,7 @@
 
 .titleForm {
     font-size: 30px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: .1em;
 }
 
@@ -287,9 +287,20 @@
 
     .containerForm {
         flex-direction: column;
-        width: 100%;
+        width: 110%;
     }
 
+}
+
+@media (max-width : 800px) {
+
+    .location-footer h3 {
+        font-size: 20px;
+    }
+
+    .location-footer {
+        font-size: 16px;
+    }
 }
 
 @media (max-width : 600px) {
@@ -428,6 +439,14 @@
 
     .inputName{
         margin-top: 20px;
+    }
+
+    .location-footer h3 {
+        font-size: 25px;
+    }
+
+    .location-footer {
+        font-size: 16px;
     }
 }
 

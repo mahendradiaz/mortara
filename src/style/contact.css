@@ -75,6 +75,14 @@
     color: white;
 }
 
+
+@media (max-width : 1300px){
+
+    .address {
+        width: 30%;
+    }
+}
+
 @media (max-width : 1080px) {
 
     .bg-contact {
@@ -82,14 +90,13 @@
     }
 
     .address {
-        width : 30%
+        width : 40%
     }
 
     .container-form {
         gap: 70px;
     }
 }
-
 
 @media (max-width : 800px) {
     
