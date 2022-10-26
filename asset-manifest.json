@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d72ce7f.css",
-    "main.js": "/static/js/main.d387a086.js",
+    "main.css": "/static/css/main.c49abdf3.css",
+    "main.js": "/static/js/main.18f6395c.js",
     "static/media/portfolio.png": "/static/media/portfolio.cba821d0ee7526aee93c.png",
     "static/media/bg-footer.png": "/static/media/bg-footer.213903e7efab4df58205.png",
     "static/media/bg2.png": "/static/media/bg2.fa2c4d88de12d37cf9ea.png",
     "static/media/vision-mission.png": "/static/media/vision-mission.b81b507e46acb8ee02f7.png",
-    "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/our-service3.png": "/static/media/our-service3.e18e74a0408f90a6489a.png",
     "static/media/bg-contact.png": "/static/media/bg-contact.a7e4c55e9a6f2bf1311d.png",
     "static/media/aboutus-baner.png": "/static/media/aboutus-baner.47d8a13a1d8962075b99.png",
@@ -19,21 +18,17 @@
     "static/media/contentAbout1.png": "/static/media/contentAbout1.0463f9cf16fe3c83dd21.png",
     "static/media/portfolio3.png": "/static/media/portfolio3.3dd336e47a197c2339c3.png",
     "static/media/whymortara.png": "/static/media/whymortara.9eac959cc94403222148.png",
-    "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
-    "static/media/remixicon.ttf?t=1590207869815": "/static/media/remixicon.f2616f597cf98f38d234.ttf",
     "static/media/contentAbout2.png": "/static/media/contentAbout2.87b0f4254df26410038d.png",
     "static/media/our-service.png": "/static/media/our-service.00672463758a880f920a.png",
-    "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
-    "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
     "static/media/Mortara-Black.png": "/static/media/Mortara-Black.97af60c27c5542f9b9ae.png",
     "static/media/Mortara-White.png": "/static/media/Mortara-White.71aa8a08c224dc3618e2.png",
     "static/media/logo-mortara.png": "/static/media/logo-mortara.a92fd3fb8c7deaea37f9.png",
     "index.html": "/index.html",
-    "main.7d72ce7f.css.map": "/static/css/main.7d72ce7f.css.map",
-    "main.d387a086.js.map": "/static/js/main.d387a086.js.map"
+    "main.c49abdf3.css.map": "/static/css/main.c49abdf3.css.map",
+    "main.18f6395c.js.map": "/static/js/main.18f6395c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d72ce7f.css",
-    "static/js/main.d387a086.js"
+    "static/css/main.c49abdf3.css",
+    "static/js/main.18f6395c.js"
   ]
 }
