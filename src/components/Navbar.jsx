@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LogoMortara from '../img/logo-mortara.png'
 import { Offcanvas } from 'react-bootstrap';
-import CloseButton from 'react-bootstrap/CloseButton';
+import Button from 'react-bootstrap/Button';
 import { useState } from 'react';
 
 function Menu() {
@@ -29,7 +29,9 @@ function Menu() {
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="Logo">
                   <img src={LogoMortara} alt="" />
                 </Offcanvas.Title>
-                <CloseButton onClick={handleClose} />
+                <Button bsPrefix="closeBtn" onClick={handleClose}>
+                  <i className="ri-close-line"></i>
+                </Button>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">

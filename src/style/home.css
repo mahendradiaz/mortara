@@ -24,6 +24,16 @@
     width: 100%;
 }
 
+.closeBtn:hover i{
+    color: grey;
+    font-size: 27px;
+    transition: all .1s;
+}
+
+.closeBtn{
+    font-size: 25px;
+}
+
 .content1 {
     padding: 0;
     width: 100%;
