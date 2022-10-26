@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import LogoMortara from '../img/logo-mortara.png'
 import { Offcanvas } from 'react-bootstrap';
+import CloseButton from 'react-bootstrap/CloseButton';
 
 function Menu() {
   return (
@@ -17,7 +18,7 @@ function Menu() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header closeButton closeVariant="black">
+              <Offcanvas.Header closeButton={true}>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="Logo">
                   <img src={LogoMortara} alt="" />
                 </Offcanvas.Title>
