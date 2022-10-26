@@ -94,9 +94,9 @@ const Footer = () => {
                   />
               </FloatingLabel>
             </Form.Group>
-            <Button type="submit" bsPrefix="btnForm">
+            <button type="submit" className="btnForm">
               {loading ? 'Submitting...': 'Submit'}
-            </Button>
+            </button>
         </Form>
         <div className="location mt-5 p-5">
           <div className="location-footer">
