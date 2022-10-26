@@ -152,7 +152,7 @@ const Contact = () => {
                   </FloatingLabel>
                 </Form.Group>
               </div>
-              <Button variant="dark"  type="submit">
+              <Button variant="dark"  type="submit" bsPrefix="btn">
               {loading ? 'Sending...': 'Send'}
               </Button>
             </Form>

@@ -24,6 +24,10 @@
     width: 100%;
 }
 
+.closeButton {
+    color: red;
+}
+
 .content1 {
     padding: 0;
     width: 100%;
@@ -199,6 +203,10 @@
 
 .location-footer h3 {
     font-size: 30px;
+}
+
+.btn {
+    background: #000;
 }
 
 @media (max-width : 1080px){

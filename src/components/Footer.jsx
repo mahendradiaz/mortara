@@ -94,7 +94,7 @@ const Footer = () => {
                   />
               </FloatingLabel>
             </Form.Group>
-            <Button variant="dark" type="submit">
+            <Button variant="dark" type="submit" bsPrefix="btn">
               {loading ? 'Submitting...': 'Submit'}
             </Button>
         </Form>

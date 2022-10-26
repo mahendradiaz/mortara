@@ -17,7 +17,7 @@ function Menu() {
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
-              <Offcanvas.Header closeButton>
+              <Offcanvas.Header closeButton closeVariant="black">
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className="Logo">
                   <img src={LogoMortara} alt="" />
                 </Offcanvas.Title>
@@ -29,7 +29,6 @@ function Menu() {
                   <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                   <Nav.Link href="/article">Article</Nav.Link>
                   <Nav.Link href="/contact">Contact</Nav.Link>
-
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
