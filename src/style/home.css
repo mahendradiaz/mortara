@@ -211,12 +211,12 @@
     font-size: 30px;
 }
 
-/* .btnForm {
-    background-color: #000;
+.btnForm {
+    background-color: transparent;
     outline: transparent;
     outline-color: transparent;
     padding: 10px;
-    color: white;
+    color: black;
     border-radius: 5px;
 }
 
@@ -227,7 +227,7 @@
 .btnForm:focus {
     outline: transparent;
     outline-color: transparent;
-} */
+}
 
 @media (max-width : 1080px){
     .paragraf {
