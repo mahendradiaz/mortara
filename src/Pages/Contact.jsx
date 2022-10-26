@@ -3,7 +3,6 @@ import Menu from '../components/Navbar'
 import { Form } from 'react-bootstrap'
 import Col from 'react-bootstrap/Col'
 import FloatingLabel from 'react-bootstrap/FloatingLabel'
-import Button from 'react-bootstrap/Button'
 import axios from 'axios'
 
 
@@ -152,7 +151,7 @@ const Contact = () => {
                   </FloatingLabel>
                 </Form.Group>
               </div>
-              <button type="submit" className="btnForm">
+              <button type="submit" className="btn btn-dark">
               {loading ? 'Sending...': 'Send'}
               </button>
             </Form>
