@@ -1,5 +1,5 @@
-import 'remixicon/fonts/remixicon.css'
-import 'bulma/css/bulma.min.css'
+// import 'remixicon/fonts/remixicon.css'
+// import 'bulma/css/bulma.min.css'
 import Router from './router'
 
 // CSS Page
