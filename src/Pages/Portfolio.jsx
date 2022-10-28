@@ -38,13 +38,13 @@ const Portfolio = () => {
     return <h1 className="titleText">Survey dan Gambar arsitek</h1>;
   }
   const Typography2 = () => {
-    return <p className="textTyphograph">Tahap kedua jika klien sepakat untuk menggunakan jasa Mortara Building Space, Anda dapat mentrafser tanda jadi sebesar Rp. 10jt yang akan di bagi menjadi 2 termin pembayaran, yaitu: <br/> <br/> 1. 3jt ditahap awal pembayaran ini klien mendapatkan jasa dari tim seperti survey lokasi, pengukura n pembangun, schematic design, dan estimasi anggaran <br/> <br/> 2. 7jt ditahap kedua, jika sudah ada kesepakatan dari klien terhadap tahap pertama maka akan dilanjutkannya Rancangan 3D design pembangunan, DED, dan RAB.</p>;
+    return <p className="textTyphograph">Tahap kedua jika klien sepakat untuk menggunakan jasa Mortara Building Space, Anda dapat membayar tanda jadi kerjasama.</p>
   }
   const Title3 = () => {
     return <h1 className="titleText">Surat Perintah Kerja</h1>;
   }
   const Typography3 = () => {
-    return <p className="textTyphograph">Di Tahap ketiga, jika klien sudah menyetujui RAB maka kami akan membuatkan Kontrak Kerja sama yang meliputi:  <br/> <br/> 1. Hak dan kewajiban kotraktor dan klien <br/> <br/> 2. Jadwal dan Termin Pembayaran <br/> <br/> 3. Gambar kerja dan design <br/> <br/> 4. RAB <br/> <br/> 5. Spesiﬁkasi material</p>;
+    return <p className="textTyphograph">Di Tahap ketiga, jika klien sudah menyetujui RAB maka kami akan membuatkan Kontrak Kerja sama yang meliputi: <br/> <br/> 1. Hak dan kewajiban kotraktor dan klien <br/> <br/> 2. Jadwal dan Termin Pembayaran <br/> <br/> 3. Gambar kerja dan design <br/> <br/> 4. RAB <br/> <br/> 5. Spesiﬁkasi material</p>;
   }
   const Title4 = () => {
     return <h1 className="titleText">Pembayaran bertahap</h1>;
@@ -59,16 +59,10 @@ const Portfolio = () => {
     return <p className="textTyphograph">Pekerjaan yang kami lakukan sesuai dengan design, RAB, dan gambar kerja yang terlampir dalam surat kontrak kerja.</p>;
   }
   const Title6 = () => {
-    return <h1 className="titleText">Addendum Pekerjaan</h1>;
+    return <h1 className="titleText">Berita Acara Serah Terima</h1>;
   }
   const Typography6 = () => {
-    return <p className="textTyphograph">Perubahan, penambahan pekerjaan  dilakukan di tahap ini dengan pembuatan surat Addendum yang terpisah dari surat kontrak kerja, dan akan ditagihkan terpisah dalam invoice pembayaran yang berbeda.</p>;
-  }
-  const Title7 = () => {
-    return <h1 className="titleText">Berita Acara dan Sertifikasi Garansi</h1>;
-  }
-  const Typography7 = () => {
-    return <p className="textTyphograph">Jika proyek selesai, tim dan klien akan melakukan ceklist quality control dan memastikan pembangunan sesuai dengan design yang diinginkan oleh klien. Serta garansi pemeliharaan selama 1 bulan.</p>;
+    return <p className="textTyphograph">Jika proyek selesai, tim dan klien akan melakukan ceklist quality control dan memastikan pembangunan sesuai dengan design yang diinginkan oleh klien. Serta Garansi pemeliharan selama 1 bulan.</p>;
   }
   return (
     <>
@@ -102,9 +96,6 @@ const Portfolio = () => {
           <Card  nomor="4." title={Title4()} typography={Typography4()} />
           <Card  nomor="5." title={Title5()} typography={Typography5()} />
           <Card  nomor="6." title={Title6()} typography={Typography6()} />
-        </div>
-        <div className="contentCaraKerja">
-          <Card  nomor="7." title={Title7()} typography={Typography7()} />
         </div>
       </div>
     </Container>

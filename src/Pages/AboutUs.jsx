@@ -30,12 +30,12 @@ const AboutUs = () => {
       <Container fluid className="containerContentAbout">
           <div className="contentAbout">
             <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veritatis odit possimus cum necessitatibus voluptate cupiditate, ipsam minus. Sequi, officia.</p>
+            <p>Mortara adalah perusahaan yang menyediakan solusi terintegrasi dari perencanaan, desain, jasa konsultasi dan konstruksi. Tim kami berfokus pada kebutuhan dan keinginan dari klien. Kami tim yang yang dapat diandalkan untuk membantu membuat desain sempurna menjadi kenyataan.</p>
             <img src={ contentAbout1 } alt="" />
           </div>
           <div className="contentAbout">
             {/* <h1>About Us</h1> */}
-            <p className="contentAbout2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea veritatis odit possimus cum necessitatibus voluptate cupiditate, ipsam minus. Sequi, officia.</p>
+            <p className="contentAbout2">Kami siap dengan semua pendukung yang diperlukan mulai dari perencanaan anggaran, desain, dan juga pembangunan. Tentunya tujuan kami adalah untuk menyelesaikan tugas dengan hasil terbaik.</p>
             <img src={ contentAbout2 } alt="" />
           </div>
       </Container>
@@ -47,7 +47,7 @@ const AboutUs = () => {
         <div className="visionMission">
           <div className="textVisiMission">
             <h1>Vision & Mission</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam quae quidem excepturi! Molestiae iste numquam blanditiis delectus aspernatur cumque qui accusamus illo voluptatum sequi quos omnis, nulla pariatur sed. Tenetur?</p>
+            <p>Seiring berjalannya waktu untuk menjadi mitra solusi terintegrasi dalam desain dan konstruksi. Kami bertujuan untuk memperluas wilayah layanan di Indonesia. Kami memastikan untuk memberikan hasil terbaik dan menjadi mitra yang dapat diandalkan.</p>
           </div>
           <div className="imgVisiMission">
             <img src={ VisionMission } alt="" />
