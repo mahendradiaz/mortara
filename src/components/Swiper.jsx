@@ -41,6 +41,10 @@ export default (props) => {
                         <SwiperSlide>{props.image}</SwiperSlide>
                         <SwiperSlide>{props.image2}</SwiperSlide>
                         <SwiperSlide>{props.image3}</SwiperSlide>
+                        <SwiperSlide>{props.image4}</SwiperSlide>
+                        <SwiperSlide>{props.image5}</SwiperSlide>
+                        <SwiperSlide>{props.image6}</SwiperSlide>
+                        <SwiperSlide>{props.image7}</SwiperSlide>
                 </Swiper>
             </div>
         </>

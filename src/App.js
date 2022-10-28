@@ -17,7 +17,7 @@ import "./style/swiper.css";
 
 // import 'semantic-ui-css/semantic.min.css'
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-// import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+// import '../node_modules/mdb-ui-kit/css/mdb.min.css';
 
 function App() {
   return (

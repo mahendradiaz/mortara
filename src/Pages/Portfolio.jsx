@@ -3,18 +3,31 @@ import Menu from '../components/Navbar'
 import { Container } from 'react-bootstrap'
 import Swiper from '../components/Swiper'
 import Card from '../components/Card'
+  
 import SocialMedia from '../components/SocialMedia'
 import Footer from '../components/Footer'
 
-// image import
-import Portfolio1 from '../img/portfolio1.png'
-import Portfolio2 from '../img/portfolio2.png'
-import Portfolio3 from '../img/portfolio3.png'
+// image import 1-7
+import Portfolio1 from '../img/portofolio/porto-1.png'
+import Portfolio2 from '../img/portofolio/porto-2.png'
+import Portfolio3 from '../img/portofolio/porto-3.png'
+import Portfolio4 from '../img/portofolio/porto-4.png'
+import Portfolio5 from '../img/portofolio/porto-5.png'
+import Portfolio6 from '../img/portofolio/porto-6.png'
+import Portfolio7 from '../img/portofolio/porto-7.png'
 
+// image import 1-14
+import Portfolio8 from '../img/portofolio/porto-8.png'
+import Portfolio9 from '../img/portofolio/porto-9.png'
+import Portfolio10 from '../img/portofolio/porto-10.png'
+import Portfolio11 from '../img/portofolio/porto-11.png'
+import Portfolio12 from '../img/portofolio/porto-12.png'
+import Portfolio13 from '../img/portofolio/porto-13.png'
+import Portfolio14 from '../img/portofolio/porto-14.png'
 const Portfolio = () => {
 
 
-  // Props Swiper
+  // Props Swiper 1-7
   const Image = () => {
     return <img src={Portfolio1} alt="" />
   }
@@ -23,6 +36,41 @@ const Portfolio = () => {
   }
   const Image3 = () => {
     return <img src={Portfolio3} alt="" />
+  }
+  const Image4 = () => {
+    return <img src={Portfolio4} alt="" />
+  }
+  const Image5 = () => {
+    return <img src={Portfolio5} alt="" />
+  }
+  const Image6 = () => {
+    return <img src={Portfolio6} alt="" />
+  }
+  const Image7 = () => {
+    return <img src={Portfolio7} alt="" />
+  }
+
+  // Props Swiper 8-14
+  const Image8 = () => {
+    return <img src={Portfolio8} alt="" />
+  }
+  const Image9 = () => {
+    return <img src={Portfolio9} alt="" />
+  }
+  const Image10 = () => {
+    return <img src={Portfolio10} alt="" />
+  }
+  const Image11 = () => {
+    return <img src={Portfolio11} alt="" />
+  }
+  const Image12 = () => {
+    return <img src={Portfolio12} alt="" />
+  }
+  const Image13 = () => {
+    return <img src={Portfolio13} alt="" />
+  }
+  const Image14 = () => {
+    return <img src={Portfolio14} alt="" />
   }
 
 
@@ -79,8 +127,8 @@ const Portfolio = () => {
         </div>
     </Container>
     
-    <Swiper image={Image()} image2={Image2()} image3={Image3()}/>
-    <Swiper image={Image3()} image2={Image()} image3={Image2()}/>
+    <Swiper image={Image()} image2={Image2()} image3={Image3()} image4={Image4()} image5={Image5()} image6={Image6()} image7={Image7()} />
+    <Swiper image={Image8()} image2={Image9()} image3={Image10()} image4={Image11()} image5={Image12()} image6={Image13()} image7={Image14()}/>
 
     <Container fluid className="containerCaraKerja">
       <div className="caraKerja">

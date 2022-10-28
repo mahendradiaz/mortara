@@ -1,13 +1,28 @@
 import React from 'react'
 import MortaraLogo from '../img/Mortara-Black.png'
 import whyMortara from '../img/whymortara.png'
-import Testimoni from '../components/Testimoni'
+import Testimonial from '../components/Testimonial'
 import Footer from '../components/Footer'
 import Menu from '../components/Navbar'
 import { Container } from 'react-bootstrap'
 import SocialMedia from '../components/SocialMedia'
 
+// image import
+import Portfolio1 from '../img/portfolio1.png'
+import Portfolio2 from '../img/portfolio2.png'
+import Portfolio3 from '../img/portfolio3.png'
+
 const Home = () => {
+
+    const Image = () => {
+        return <img src={Portfolio1} alt="" />
+      }
+      const Image2 = () => {
+        return <img src={Portfolio2} alt="" />
+      }
+      const Image3 = () => {
+        return <img src={Portfolio3} alt="" />
+    }
   return (
     <>
     <Menu />
@@ -60,7 +75,7 @@ const Home = () => {
     </div>
     <div className="testimoni">
         <div className="reviews">
-            <Testimoni />
+            <Testimonial />
         </div>
     </div>
     <Footer />
