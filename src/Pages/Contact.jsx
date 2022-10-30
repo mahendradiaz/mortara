@@ -22,7 +22,7 @@ const Contact = () => {
       event.preventDefault();
       event.stopPropagation();
     } else {
-      const url = "https://serambitemu.com/mortara.id/php/onSubmitContact.php"
+      const url = "https://mortara.id/php/onSubmitContact.php"
 
       let fData = new FormData()
       fData.append('firstName', firstName)
