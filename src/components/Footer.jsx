@@ -46,7 +46,7 @@ const Footer = () => {
     return (
       <>
       <Container className="containerForm mt-5" fluid>
-        <Form className="form mt-5 p-5" noValidate validated={validated} onSubmit={handleSubmit}>
+        <Form className="form mt-5 p-5" noValidate validated={validated} onSubmit={handleSubmit} method="POST">
         <h3 className="titleForm mb-5">Asked About News and updates <br/> about your future home.</h3>
           <Row className="mb-3">
             <Form.Group as={Col} md="6" controlId="validationCustom01">

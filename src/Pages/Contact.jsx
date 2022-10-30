@@ -80,7 +80,7 @@ const Contact = () => {
           </div>
           <div className="formAddress">
             <h3>Get In Touch</h3>
-            <Form className="contact-form mt-5" noValidate validated={validated} onSubmit={handleSubmit}>
+            <Form className="contact-form mt-5" noValidate validated={validated} onSubmit={handleSubmit} method="POST">
               <div className="container-form d-flex" >
                 <Form.Group as={Col} md="6" controlId="validationCustom01">
                   <Form.Label className="label">First Name</Form.Label>
