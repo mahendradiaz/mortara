@@ -25,7 +25,7 @@ const Footer = () => {
       event.preventDefault();
       event.stopPropagation();
     } else {
-      const url = "http://serambitemu.com/mortara.id/php/onSubmit.php"
+      const url = "https://serambitemu.com/mortara.id/php/onSubmit.php"
 
       let fData = new FormData()
       fData.append('email', email)
